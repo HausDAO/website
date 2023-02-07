@@ -2,7 +2,7 @@
 
 ## Drop-in Replacement for [CRA](http://create-react-app.dev/) but powered by [Vite](https://vitejs.dev/)
 
-### Things in CRA, supported here:
+### Things supported here:
 - Import SVG's directly as React Component via SVGR
 - Unit Testing via Jest & React Testing Library
 - ESLint Rules & Prettier

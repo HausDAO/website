@@ -1,4 +1,6 @@
-export function Footer() {
+import React from 'react';
+
+const Footer = () => {
   return (
     <footer className="bg-blue-700 dark:bg-blue-700">
       <div className="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
@@ -162,4 +164,6 @@ export function Footer() {
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;

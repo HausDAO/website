@@ -1,3 +1,3 @@
 export function Hero() {
-  return <h1 className="text-5xl">Hero</h1>;
+  return <h1 className="">Hero</h1>;
 }

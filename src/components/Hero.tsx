@@ -1,15 +1,20 @@
-import { Header } from 'components/Header';
+import React from 'react';
 
-export function Hero() {
+const Hero = (props: any) => {
   return (
-    <div style={{ width: '100%', backgroundColor: 'var(--blue)' }}>
-      <Header
-        title="DAOHaus is the protocol for purpose-driven governance"
-        align="center"
-        maxW="480px"
-        margin="75px auto"
-        color="white"
-      />
+    <div
+      style={{
+        width: '100%',
+        minHeight: '800px',
+        padding: '75px 25px',
+        backgroundColor: 'white',
+        color: 'white',
+        position: 'relative',
+      }}
+    >
+      <div style={{ maxWidth: '1200px', margin: '0 auto' }}>{props.children}</div>
     </div>
   );
-}
+};
+
+export default Hero;

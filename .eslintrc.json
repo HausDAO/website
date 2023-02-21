@@ -30,6 +30,13 @@
       "@typescript-eslint/parser": [".ts", ".tsx"]
     },
     "import/resolver": {
+      "aliases": [
+        ["@components", "./src/components"],
+        ["@hooks", "./src/hooks"],
+        ["@pages", "./src/pages"],
+        ["@utils", "./src/utils"],
+        ["@assets", "./src/assets"]
+      ],
       "typescript": {}
     },
     "react": {

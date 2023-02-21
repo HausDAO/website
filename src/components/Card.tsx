@@ -11,7 +11,7 @@ const Card = () => {
         Consisting of core Ethereum developers, Protocol Guild prioritizes minimal governance for
         the most member engagement.
       </p>
-      <Button>Read More</Button>
+      <Button className="object-right-bottom">Read More</Button>
     </div>
   );
 };

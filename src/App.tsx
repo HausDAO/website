@@ -1,11 +1,13 @@
-import { Header } from 'components/Header';
-import { Button } from 'components/Button';
+import Navigation from 'components/Navigation';
+import Footer from 'components/Footer';
+import Card from 'components/Card';
 
 function App() {
   return (
     <div className="App">
-      <Header title="DAOHaus!!!" />
-      <Button onClick={() => alert('Start Daoing it!')}>DAOHaus</Button>
+      <Navigation />
+      <Card />
+      <Footer />
     </div>
   );
 }

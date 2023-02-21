@@ -1,3 +1,7 @@
-export function Header({ title }: { title: string }) {
-  return <h1 className="text-5xl">{title}</h1>;
-}
+import React from 'react';
+
+const Header = () => {
+  return <div>Header</div>;
+};
+
+export default Header;

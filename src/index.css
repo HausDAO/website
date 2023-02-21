@@ -1,4 +1,14 @@
 @import './styles/reset.css';
+@import url("https://use.typekit.net/pgp1osb.css");
+
+:root {
+  --red: #FE1D5B;
+  --blue: #1A28D1;
+  --green: #11F487;
+  --black: #010101;
+  --border: 2px solid var(--blue);
+  --padding: 25px;
+  }
 
 body {
   margin: 0;
@@ -6,8 +16,25 @@ body {
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Stolzl', sans-serif;
+  font-weight: 400;
+  --blue: #1A28D1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+code, pre {
+  font-family: 'BDR Mono', monospace;
 }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Manofa', serif;
+  font-weight: 400;
+  color: var(--blue);
+}
+
+h6 {
+  font-family: 'Stolzl';
+  font-weight: 700;
+}
+
+p { font-family: 'Stolzl'; font-weight: 300; }
+

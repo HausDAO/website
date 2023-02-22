@@ -5,10 +5,8 @@ import Card from './Card';
 const TestimonialCard = () => {
   return (
     <Card>
-      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-blue-400">
-        Protocol Guild
-      </h5>
-      <p className="mb-3 font-normal text-gray-700 dark:text-blue-400">
+      <h5 className="text-gray-900 dark:text-blue-400 mb-2 text-2xl">Protocol Guild</h5>
+      <p className="text-gray-700 dark:text-blue-400 mb-3">
         Consisting of core Ethereum developers, Protocol Guild prioritizes minimal governance for
         the most member engagement.
       </p>

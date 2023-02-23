@@ -1,4 +1,6 @@
 // eslint-disable-next-line no-undef
+
+const colors = require('tailwindcss/colors');
 module.exports = {
   content: ['./src/**/*.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
@@ -7,7 +9,8 @@ module.exports = {
       blue: '#1A28D1',
       green: '#11F487',
       black: '#010101',
-      white: '#fffff',
+      purple: colors.purple,
+      white: colors.white,
     },
     fontFamily: {
       sans: ['Stolzl', 'sans-serif'],

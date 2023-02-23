@@ -1,4 +1,7 @@
 @import './styles/reset.css';
+@import url("https://use.typekit.net/pgp1osb.css");
+
+@import './styles/reset.css';
 
 body {
   margin: 0;
@@ -6,8 +9,23 @@ body {
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Stolzl', sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: 'BDR Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+:root {
+  --red: #FE1D5B;
+  --blue: #1A28D1;
+  --green: #11F487;
+  --black: #010101;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manofa', serif;
+    font-weight: 200;
+    font-style: normal;
+
+  }

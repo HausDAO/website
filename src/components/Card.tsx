@@ -1,17 +1,10 @@
-import React from 'react';
-import { Button } from './Button';
+import React, { PropsWithChildren } from 'react';
 
-const Card = () => {
+const Card = (props: PropsWithChildren) => {
+  const { children } = props;
   return (
-    <div className="max-w-sm p-6 bg-transparent border border-gray-200 shadow dark:bg-transparent dark:border-blue-400">
-      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-blue-400">
-        Protocol Guild
-      </h5>
-      <p className="mb-3 font-normal text-gray-700 dark:text-blue-400">
-        Consisting of core Ethereum developers, Protocol Guild prioritizes minimal governance for
-        the most member engagement.
-      </p>
-      <Button className="object-right-bottom">Read More</Button>
+    <div className="bg-transparent border-blue-400 dark:bg-transparent dark:border-blue-400 border p-6">
+      {children}
     </div>
   );
 };

@@ -1,9 +1,12 @@
 import React, { PropsWithChildren } from 'react';
 
-const Card = (props: PropsWithChildren) => {
-  const { children } = props;
+export interface CardProps extends React.ComponentPropsWithRef<'div'> {}
+
+const Card = (props: CardProps) => {
+  const { children, className } = props;
+
   return (
-    <div className="bg-transparent border-blue-400 dark:bg-transparent dark:border-blue-400 border p-6">
+    <div className={`bg-transparent dark:bg-transparent border p-6 dark:border ${className}`}>
       {children}
     </div>
   );

@@ -21,6 +21,7 @@ module.exports = {
         opensource: "url('/img/dh_opensource.svg')",
         communityowned: "url('/img/dh_communityowned.svg')",
         publicgood: "url('/img/dh_publicgood.svg')",
+        aurora: "url('/img/dh_aurora.png')",
       },
     },
   },

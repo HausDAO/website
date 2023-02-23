@@ -7,6 +7,7 @@ module.exports = {
       blue: '#1A28D1',
       green: '#11F487',
       black: '#010101',
+      white: '#fffff',
     },
     fontFamily: {
       sans: ['Stolzl', 'sans-serif'],
@@ -18,9 +19,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('/img/bg-north-star.png')",
-        opensource: "url('/img/dh_opensource.svg')",
-        communityowned: "url('/img/dh_communityowned.svg')",
-        publicgood: "url('/img/dh_publicgood.svg')",
+        fire: "url('/img/bg_fire.png')",
+        aurora: "url('/img/dh_aurora.png')",
       },
     },
   },

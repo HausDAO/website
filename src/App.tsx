@@ -7,6 +7,7 @@ import PublicGoods from 'components/PublicGoods';
 import Testimonials from 'components/Testimonials';
 import Ecosystem from 'components/Ecosystem';
 import Governance from 'components/Governance';
+import Dialog from 'components/Dialog';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <PublicGoods />
       <Testimonials />
       <Ecosystem />
+      <Dialog />
       <Governance />
       <Footer />
     </div>

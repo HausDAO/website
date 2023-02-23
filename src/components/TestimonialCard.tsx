@@ -4,8 +4,8 @@ import Card from './Card';
 
 const TestimonialCard = () => {
   return (
-    <Card>
-      <div className="columns-2 gap-8">
+    <Card className="my-8 p-8">
+      <div className="columns-1 gap-8 md:columns-2">
         <div>
           <h5 className="text-gray-900 dark:text-blue-400 mb-2 text-2xl">Protocol Guild</h5>
           <p className="text-gray-700 dark:text-blue-400 mb-3">

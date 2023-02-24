@@ -3,6 +3,9 @@ import bgCoderedUp from '../assets/bg_codered-up.png';
 import bgCodeblackDown from '../assets/bg_codeblack-down.png';
 import Card from './Card';
 import AnatomyItem from './AnatomyItem';
+import m3Governance from '../assets/m3_governance.svg';
+import m3Tx from '../assets/m3_transaction.svg';
+import m3Execution from '../assets/m3_execution.svg';
 
 const anatomyData = [
   {
@@ -39,57 +42,62 @@ const MolochAnatomy = () => {
             </p>
           </div>
         </div>
-        <Card>
-          <div className="display flex justify-between">
+        <Card className="border-t-2 border-l-0 border-r-0 border-b-0 border-brandRed">
+          <div className="flex flex-wrap justify-between">
             <div className="flex-col">
-              <h2 className="mb-4 text-2xl">
+              <h2 className="mb-4 text-3xl">
                 Governance
                 <br />
                 Layer
               </h2>
-              <h4>Moloch V3</h4>
+              <h4 className="mb-4 text-xl">Moloch V3</h4>
               <p>Member Management</p>
               <p>General Governance</p>
               <p>Token Governance</p>
               <p>DAO Configuration</p>
               <p>Arbitrary Execution</p>
             </div>
-            <div className="flex-col">img</div>
+            <div className="flex-col">
+              <img className="w-[800px]" src={m3Governance} />
+            </div>
           </div>
         </Card>
-        <Card>
+        <Card className="border-t-2 border-l-0 border-r-0 border-b-0 border-brandRed">
           <div className="display flex justify-between">
             <div className="flex-col">
-              <h2 className="mb-4 text-2xl">
+              <h2 className="mb-4 text-3xl">
                 Transaction
                 <br />
                 Layer
               </h2>
-              <h4>Safe and Zodiac</h4>
+              <h4 className="mb-4 text-xl">Safe and Zodiac</h4>
               <p>General Governance</p>
               <p>Token Governance</p>
               <p>DAO Configuration</p>
               <p>Arbitrary Execution</p>
             </div>
-            <div className="flex-col">img</div>
+            <div className="flex-col">
+              <img src={m3Tx} className="w-[600px]" />
+            </div>
           </div>
         </Card>
-        <Card>
+        <Card className="border-t-2 border-l-0 border-r-0 border-b-2 border-brandRed">
           <div className="display flex justify-between">
-            <div>logo</div>
-            <div className="">
-              <h2 className="mb-4 text-2xl">
+            <div className="max-w-xl">
+              <h2 className="mb-4 text-3xl">
                 Execution
                 <br />
                 Layer
               </h2>
-              <h4>Ethereum</h4>
+              <h4 className="mb-4 text-xl">Ethereum</h4>
               <p>
                 Execute any transaction in any contract on any EVM-compatible chain. (cross-chain,
                 dao to dao, dao to dapp, etc)
               </p>
             </div>
-            <div className="">img</div>
+            <div>
+              <img src={m3Execution} className="w-[600px]" />
+            </div>
           </div>
         </Card>
 
@@ -98,8 +106,8 @@ const MolochAnatomy = () => {
             <AnatomyItem key={anatomyItem.title} {...anatomyItem} />
           ))}
         </div> */}
-        <div className="my-6 flex flex-col justify-center text-center">
-          <h5>Endless possibilities</h5>
+        <div className="my-24 mx-auto flex max-w-xl flex-col justify-center text-center">
+          <h3 className="mb-4 text-3xl">Endless possibilities</h3>
           <p>
             With Safes used as vaults, Moloch V3 focuses on the governance layer. Allowing for much
             more extensible decision-making.

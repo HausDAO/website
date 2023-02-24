@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-brandBlue  text-white">
-      <div className="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
+      <div className="grid grid-cols-2 gap-8 px-6 py-8 md:container md:mx-auto md:grid-cols-4">
         <div>
           <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">
             DAOHaus

@@ -2,10 +2,10 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="text-white bg-blue dark:bg-blue">
+    <footer className="bg-brandBlue  text-white">
       <div className="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
         <div>
-          <h2 className="text-white dark:text-white mb-6 text-sm font-semibold uppercase">
+          <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">
             DAOHaus
           </h2>
           <ul className="text-white dark:text-white">
@@ -27,7 +27,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h2 className="text-white dark:text-white mb-6 text-sm font-semibold uppercase">Use</h2>
+          <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">Use</h2>
           <ul className="text-white dark:text-white">
             <li className="mb-4">
               <a href="/#" className="hover:underline">
@@ -57,7 +57,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h2 className="text-white dark:text-white mb-6 text-sm font-semibold uppercase">Build</h2>
+          <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">Build</h2>
           <ul className="text-white dark:text-white">
             <li className="mb-4">
               <a href="/#" className="hover:underline">
@@ -82,7 +82,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h2 className="text-white dark:text-white mb-6 text-sm font-semibold uppercase">
+          <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">
             Govern
           </h2>
           <ul className="text-white dark:text-white">
@@ -109,8 +109,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="bg-blue-600 dark:bg-blue-600 px-4 py-6 md:flex md:items-center md:justify-between">
-        <span className="text-white dark:text-white text-sm sm:text-center">
+      {/* <div className="bg-blue-600 px-4 py-6 dark:bg-blue-600 md:flex md:items-center md:justify-between">
+        <span className="text-sm text-white dark:text-white sm:text-center">
           © 2023 <a href="https://daohaus.club/">DAOHaus</a>. All Rights for Everyone.
         </span>
         <div className="mt-4 flex space-x-6 sm:justify-center md:mt-0">
@@ -151,7 +151,7 @@ const Footer = () => {
             <span className="sr-only">GitHub account</span>
           </a>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };

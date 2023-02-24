@@ -8,7 +8,7 @@ const Navigation = () => {
     <nav className="bg-white px-2 py-2.5 dark:bg-white sm:px-4">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <a href="https://daohaus.club/" className="flex items-center">
-          <HausLogo height={40} />
+          <HausLogo height={40} width="auto" />
         </a>
         <button
           data-collapse-toggle="navbar-default"

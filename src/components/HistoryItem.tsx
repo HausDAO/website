@@ -14,7 +14,7 @@ const HistoryItem = (props: HistoryItemProps) => {
   return (
     <Card className={className}>
       <div className="display flex flex-col">
-        <h3 className="text-xl font-light">{year}</h3>
+        <h3 className="font-mono text-xl font-light">{year}</h3>
         <h4 className="mb-6 uppercase">{title}</h4>
         <p>{description}</p>
       </div>

@@ -43,7 +43,7 @@ const MolochAnatomy = () => {
           </div>
         </div>
         <Card className="border-t-2 border-l-0 border-r-0 border-b-0 border-brandRed">
-          <div className="flex flex-wrap justify-between">
+          <div className="flex flex-col flex-wrap justify-between md:flex-row">
             <div className="flex-col">
               <h2 className="mb-4 text-3xl">
                 Governance
@@ -63,7 +63,7 @@ const MolochAnatomy = () => {
           </div>
         </Card>
         <Card className="border-t-2 border-l-0 border-r-0 border-b-0 border-brandRed">
-          <div className="display flex justify-between">
+          <div className="flex flex-col flex-wrap justify-between md:flex-row">
             <div className="flex-col">
               <h2 className="mb-4 text-3xl">
                 Transaction
@@ -77,12 +77,12 @@ const MolochAnatomy = () => {
               <p>Arbitrary Execution</p>
             </div>
             <div className="flex-col">
-              <img src={m3Tx} className="w-[600px]" />
+              <img src={m3Tx} className="mt-8 w-[600px]" />
             </div>
           </div>
         </Card>
         <Card className="border-t-2 border-l-0 border-r-0 border-b-2 border-brandRed">
-          <div className="display flex justify-between">
+          <div className="flex flex-col flex-wrap justify-between md:flex-row">
             <div className="max-w-xl">
               <h2 className="mb-4 text-3xl">
                 Execution

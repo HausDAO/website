@@ -58,7 +58,7 @@ const MolochAnatomy = () => {
               <p>Arbitrary Execution</p>
             </div>
             <div className="flex-col">
-              <img className="w-[800px]" src={m3Governance} />
+              <img className="mt-8 w-[800px] " src={m3Governance} />
             </div>
           </div>
         </Card>
@@ -93,7 +93,7 @@ const MolochAnatomy = () => {
               </p>
             </div>
             <div>
-              <img src={m3Execution} className="w-[600px]" />
+              <img src={m3Execution} className="mt-8 w-[600px]" />
             </div>
           </div>
         </Card>

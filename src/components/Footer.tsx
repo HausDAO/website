@@ -1,9 +1,11 @@
 import React from 'react';
+import bgCodeblueUp from '../assets/bg_codeblue-up.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-brandBlue  text-white">
-      <div className="grid grid-cols-2 gap-8 px-6 py-8 md:container md:mx-auto md:grid-cols-4">
+    <footer className="bg-brandBlue text-white">
+      <img className="bg-brandRed" src={bgCodeblueUp} />
+      <div className="grid grid-cols-2 gap-8 px-6 py-24 md:container md:mx-auto md:grid-cols-4">
         <div>
           <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">
             DAOHaus

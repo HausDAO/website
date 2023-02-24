@@ -10,9 +10,9 @@ const Moloch = () => {
   return (
     <main>
       <section className="flex flex-col bg-black text-center text-white">
-        <div className="mx-8 flex flex-wrap items-center py-72 md:container md:mx-auto md:flex-nowrap">
-          <div className="min-w-96">
-            <img src={molochLogoStack} className="pb-24 md:pl-24" />
+        <div className="flex flex-wrap items-center px-24 py-72 md:container md:mx-auto md:flex-nowrap">
+          <div className="max-w-2xl">
+            <img src={molochLogoStack} className="pb-24 md:pr-24 md:pb-0" />
           </div>
           <div className="text-left">
             <h1 className="mb-8 text-4xl font-light uppercase text-white sm:text-6xl md:text-6xl">

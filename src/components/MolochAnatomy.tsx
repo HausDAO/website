@@ -71,10 +71,7 @@ const MolochAnatomy = () => {
                 Layer
               </h2>
               <h4 className="mb-4 text-xl">Safe and Zodiac</h4>
-              <p>General Governance</p>
-              <p>Token Governance</p>
-              <p>DAO Configuration</p>
-              <p>Arbitrary Execution</p>
+              <p>Zodiac carries the transactin data. Safe(s) hold any tokenized assets</p>
             </div>
             <div className="flex-col">
               <img src={m3Tx} className="mt-8 w-[600px]" />

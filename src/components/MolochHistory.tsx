@@ -38,7 +38,7 @@ const MolochHistory = () => {
           <h3 className="flex justify-center text-center text-2xl font-light uppercase lg:text-4xl">
             A brief history of
           </h3>
-          <h2 className="text--4xl text-center lg:text-6xl">Moloch DAOs</h2>
+          <h2 className="text-center text-4xl lg:text-6xl">Moloch DAOs</h2>
         </div>
         <div className="flex flex-col space-y-4">
           {historyData.map((historyItem) => (

@@ -8,17 +8,19 @@ import MolochRises from 'components/MolochRises';
 const Moloch = () => {
   return (
     <main>
-      <div className="flex items-center justify-center bg-black px-8 py-24 text-center text-white">
-        <div className="">MOLOCH LOGO</div>
-        <div className="text-left">
-          <h1 className="text-4xl font-light uppercase text-white sm:text-6xl md:text-6xl">
-            Moloch V3 is here
-          </h1>
-          <h2 className="text-xl font-light md:text-6xl">
-            DAOHaus V3 delivers it as a governance toolkit
-          </h2>
+      <section className="flex flex-col bg-black text-center text-white">
+        <div className="mx-8 my-24 flex items-center md:mx-40">
+          <div className="">MOLOCH LOGO</div>
+          <div className="text-left">
+            <h1 className="text-4xl font-light uppercase text-white sm:text-6xl md:text-6xl">
+              Moloch V3 is here
+            </h1>
+            <h2 className="text-xl font-light md:text-6xl">
+              DAOHaus V3 delivers it as a governance toolkit
+            </h2>
+          </div>
         </div>
-      </div>
+      </section>
       <MolochHistory />
       <MolochRises />
       <MolochAnatomy />

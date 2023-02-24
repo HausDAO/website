@@ -5,9 +5,11 @@ import Card from './Card';
 const MolochRises = () => {
   return (
     <section className="bg-black text-brandRed">
-      <div className="mx-8 text-center md:my-24">
-        <h2 className="text-xl font-light">2022</h2>
-        <h3>MOLOCH III RISES</h3>
+      <div className="mx-8 text-center md:mx-40">
+        <div className="">
+          <h2 className="text-xl font-light">2022</h2>
+          <h3>MOLOCH III RISES</h3>
+        </div>
         <Card className="border-2 border-brandRed">
           <div className="gap-8 p-8 md:columns-1 lg:columns-3">
             <div className="mb-8 flex flex-col items-center">

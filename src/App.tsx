@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="h-full overflow-auto">
       <Navigation />
-      {/* <Home /> */}
+      <Home />
       <Moloch />
       <Footer />
     </div>

@@ -5,7 +5,7 @@ import bgCodeblueUp from '../assets/bg_codeblue-up.png';
 
 const Governance = () => {
   return (
-    <section className="container mx-auto bg-white text-brandBlue">
+    <section className="bg-white text-brandBlue">
       <img src={bgCoderedDown} />
       <div className="mx-auto flex w-1/2 flex-col">
         <h2 className="mb-4 text-3xl uppercase">Govern in Public Haus</h2>

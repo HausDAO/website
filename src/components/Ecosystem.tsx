@@ -33,9 +33,9 @@ const appData = [
 
 const Ecosystem = () => {
   return (
-    <section className="container mx-auto bg-black text-brandGreen ">
+    <section className="bg-black text-brandGreen ">
       <img src={bgCodeblueDown} />
-      <div className="mx-8">
+      <div className="mx-8 py-12 md:mx-40">
         <div className="text-center">
           <h2 className="text-4xl font-light uppercase lg:text-6xl">
             Ecosystem
@@ -49,7 +49,7 @@ const Ecosystem = () => {
             Various applications built on the DAOhaus protocol, by and for the broader community,
             are available for any organization.
           </p>
-          <div className="my-12 text-left md:columns-3">
+          <div className="my-12 columns-1 text-left md:columns-3">
             {appData.map((app, index) => (
               <HausApp key={index} {...app} />
             ))}

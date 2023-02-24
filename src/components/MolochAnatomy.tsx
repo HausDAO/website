@@ -25,7 +25,7 @@ const MolochAnatomy = () => {
   return (
     <section className=" text-brandRed">
       <img src={bgCoderedUp} className="bg-black" />
-      <div className="mx-8">
+      <div className="mx-8 md:mx-40">
         <div className="my-8">
           <h2 className="mb-6 flex justify-center text-center text-2xl font-light uppercase lg:text-6xl">
             ANATOMY OF a moloch v3 dao in DAOHaus

@@ -27,7 +27,7 @@ const testimonialData = [
 const Testimonials = () => {
   return (
     <section className="h-full bg-brandBlue bg-aurora bg-contain bg-top bg-no-repeat">
-      <div className="mx-8 pb-12 pt-52 text-center">
+      <div className="mx-8 pb-12 pt-52 text-center md:mx-40">
         <h2 className="font-body text-2xl font-bold uppercase text-white">DAOHaus</h2>
         <h3 className="mb-6 font-body text-4xl uppercase text-white">In the Wild</h3>
         <div className="flex flex-col space-y-4">

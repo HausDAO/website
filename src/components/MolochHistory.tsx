@@ -32,7 +32,7 @@ const MolochHistory = () => {
   return (
     <section className="bg-brandRed text-white">
       <img src={bgCoderedUp} className="bg-black" />
-      <div className="mx-8 py-8">
+      <div className="mx-8 py-8 md:mx-40">
         <h2 className="flex justify-center text-center text-2xl font-light uppercase lg:text-6xl">
           A brief history of moloch DAO
         </h2>

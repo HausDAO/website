@@ -8,7 +8,6 @@ module.exports = {
       sans: ['Stolzl', ...defaultTheme.fontFamily.sans],
       serif: ['Manofa', ...defaultTheme.fontFamily.serif],
       mono: ['BDR Mono', ...defaultTheme.fontFamily.mono],
-      display: ['Manofa', 'serif'],
       heading: ['Manofa', 'serif'],
       body: ['Stolzl', 'sans-serif'],
     },

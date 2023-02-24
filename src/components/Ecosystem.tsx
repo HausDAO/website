@@ -4,14 +4,40 @@ import Card from './Card';
 import fullStack from '../assets/fullstack.png';
 import bgCoderedUp from '../assets/bg_codered-up.png';
 import bgCodeblueDown from '../assets/bg_codeblue-down.png';
+import bgCodeblueUp from '../assets/bg_codeblue-up.png';
+import HausApp from './HausApp';
+
+const appData = [
+  {
+    title: 'The Summoner',
+    description:
+      'When you first put the specifics of your decentralized and autonomous governance on chain',
+    buttonText: 'Launch App',
+    href: 'https://summon.daohaus.fun/',
+  },
+  {
+    title: 'Mission Control',
+    description:
+      'While challenging, anyone can bring together autonomous contributors for decentralized collaborations and governance.',
+    buttonText: 'Launch App',
+    href: 'https://admin.daohaus.fun/',
+  },
+  {
+    title: 'HUB',
+    description:
+      'Vote and make proposals for the DAOs that you are a member of. Check out new DAOs and DAOs you have been curious about.',
+    buttonText: 'Launch App',
+    href: 'https://hub.daohaus.fun/',
+  },
+];
 
 const Ecosystem = () => {
   return (
-    <section className="bg-black text-brandGreen">
+    <section className="container mx-auto bg-black text-brandGreen ">
       <img src={bgCodeblueDown} />
-      <div className="py-12 md:container md:mx-auto">
+      <div className="mx-8 py-12">
         <div className="text-center">
-          <h2 className="text-4xl uppercase lg:text-6xl">
+          <h2 className="text-4xl font-light uppercase lg:text-6xl">
             Ecosystem
             <br />
             of apps
@@ -19,55 +45,32 @@ const Ecosystem = () => {
           <h3 className="my-4 font-sans text-xl font-extrabold uppercase lg:text-3xl">
             Using the DAOHaus SDK
           </h3>
-          <p className="mx-auto mb-24 max-w-sm text-xl">
+          <p className="font-heading font-light">
             Various applications built on the DAOhaus protocol, by and for the broader community,
             are available for any organization.
           </p>
           <div className="my-12 text-left md:columns-3">
-            <Card className="border-brandGreen">
-              <h2 className="pt-24 text-3xl">Summoner</h2>
-              <p className="my-8">
-                When you first put the specifics of your decentralized and autonomous governance on
-                chain, you’ve summoned a DAO.
-              </p>
-              <Button>Open App</Button>
-            </Card>
-            <Card className="border-brandGreen">
-              <h2 className="pt-24 text-3xl">Mission Control</h2>
-              <p className="my-8">
-                While challenging, anyone can bring together autonomous contributors for
-                decentralized collaborations and governance.
-              </p>
-              <Button>Open App</Button>
-            </Card>
-            <Card className="border-brandGreen">
-              <h2 className="pt-24 text-3xl">Hub</h2>
-              <p className="my-8">
-                Vote and make proposals for the DAOs that you're a member of. Check out new DAOs and
-                DAOs you’ve been curious about.
-              </p>
-              <Button>Open App</Button>
-            </Card>
+            {appData.map((app, index) => (
+              <HausApp key={index} {...app} />
+            ))}
           </div>
         </div>
-        <Card className="border-brandGreen">
-          <h4 className="text-3xl">Build your own purpose-driven DAO or APP</h4>
+        <Card className="border-dotted border-brandGreen p-8">
+          <h4 className="text-3xl font-light">Build your own purpose-driven DAO or APP</h4>
           <p className="my-8">
             Do you have an idea for a DAO tool? DAOhaus encourages development on top of the
             protocol and is available for support.
           </p>
           <Button>Read More</Button>
         </Card>
-      </div>
-      <div className="px-12 md:container md:mx-auto">
         <div className="text-center">
-          <h2 className="mt-24 text-4xl uppercase lg:text-6xl">
+          <h2 className="mt-24 text-4xl font-light uppercase lg:text-6xl">
             Governance &
             <br />
             App Legos
           </h2>
-          <h3 className="my-4 font-sans text-3xl font-extrabold uppercase">Built for Developers</h3>
-          <p className="mx-auto mb-24 max-w-sm text-xl">
+          <h3 className="my-4 font-sans text-xl font-extrabold uppercase">Built for Developers</h3>
+          <p className="">
             Various applications built on the DAOhaus protocol, by and for the broader community,
             are available for any organization.
           </p>
@@ -79,7 +82,11 @@ const Ecosystem = () => {
                 trisique neque dolor efficitoru nullo.
               </p>
               <div className="mt-8 flex max-w-xl flex-row">
-                <Button>Docs</Button>
+                <Button>
+                  <a href="https://docs.daohaus.club/" target="_blank">
+                    Docs
+                  </a>
+                </Button>
                 <Button>Support</Button>
               </div>
             </div>

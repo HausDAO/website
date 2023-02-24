@@ -4,8 +4,8 @@ import Card from './Card';
 
 const Dialog = () => {
   return (
-    <section className="bg-red p-12 py-24">
-      <div className="bg-fire bg-contain bg-top bg-no-repeat md:container dark:text-white md:mx-auto lg:max-w-6xl ">
+    <section className="bg-brandRed">
+      <div className="bg-fire bg-contain bg-top bg-no-repeat dark:text-white md:container md:mx-auto lg:max-w-6xl ">
         <div className="my-24 mx-auto flex max-w-6xl flex-row text-left">
           <div className="md:w-md w-full">
             <h2 className="text-6xl uppercase">

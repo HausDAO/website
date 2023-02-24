@@ -7,7 +7,7 @@ import bgCodeblueDown from '../assets/bg_codeblue-down.png';
 
 const Ecosystem = () => {
   return (
-    <section className="bg-black text-green">
+    <section className="bg-black text-brandGreen">
       <img src={bgCodeblueDown} />
       <div className="py-12 md:container md:mx-auto">
         <div className="text-center">
@@ -24,7 +24,7 @@ const Ecosystem = () => {
             are available for any organization.
           </p>
           <div className="my-12 text-left md:columns-3">
-            <Card>
+            <Card className="border-brandGreen">
               <h2 className="pt-24 text-3xl">Summoner</h2>
               <p className="my-8">
                 When you first put the specifics of your decentralized and autonomous governance on
@@ -32,7 +32,7 @@ const Ecosystem = () => {
               </p>
               <Button>Open App</Button>
             </Card>
-            <Card>
+            <Card className="border-brandGreen">
               <h2 className="pt-24 text-3xl">Mission Control</h2>
               <p className="my-8">
                 While challenging, anyone can bring together autonomous contributors for
@@ -40,7 +40,7 @@ const Ecosystem = () => {
               </p>
               <Button>Open App</Button>
             </Card>
-            <Card>
+            <Card className="border-brandGreen">
               <h2 className="pt-24 text-3xl">Hub</h2>
               <p className="my-8">
                 Vote and make proposals for the DAOs that you're a member of. Check out new DAOs and
@@ -50,7 +50,7 @@ const Ecosystem = () => {
             </Card>
           </div>
         </div>
-        <Card>
+        <Card className="border-brandGreen">
           <h4 className="text-3xl">Build your own purpose-driven DAO or APP</h4>
           <p className="my-8">
             Do you have an idea for a DAO tool? DAOhaus encourages development on top of the

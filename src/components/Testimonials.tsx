@@ -3,12 +3,11 @@ import TestimonialCard from './TestimonialCard';
 
 const Testimonials = () => {
   return (
-    <section className="relative bg-blue">
-      <div className="absolute h-[720px] w-full bg-aurora bg-cover bg-bottom" />
-      <div className="container relative mx-auto px-8 pb-24 text-[white]">
-        <div className="pt-[540px] pb-12 text-center">
-          <h2 className="text-3xl">DAOHaus</h2>
-          <h3 className="text-6xl">In the Wild</h3>
+    <section className="bg-brandBlue">
+      <div className="bg-aurora bg-contain bg-top bg-no-repeat">
+        <div className="pt-52 text-center">
+          <h2 className="text-2xl font-bold uppercase text-white">DAOHaus</h2>
+          <h3 className="text-4xl text-white">In the Wild</h3>
         </div>
         <TestimonialCard />
         <TestimonialCard />

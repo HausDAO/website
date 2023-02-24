@@ -8,7 +8,7 @@ import { Button } from './Button';
 
 const PublicGoods = () => {
   return (
-    <section className="container mx-auto my-12 px-6 text-center text-red md:py-48">
+    <section className="container mx-auto my-12 px-6 text-center text-brandRed md:py-48">
       <div className="my-12 text-center md:my-24">
         <h2 className="text-3xl uppercase md:text-5xl">
           Infinite
@@ -19,7 +19,7 @@ const PublicGoods = () => {
         </h2>
         <p className="mt-3 text-2xl font-extrabold uppercase md:text-4xl">for the public good</p>
       </div>
-      <Card className="my-4 px-8">
+      <Card className="my-4 border-brandRed px-8">
         <div className="gap-8 p-8 md:columns-1 lg:columns-3">
           <div className="mb-8 flex flex-col items-center">
             <OpenSourceSVG className="h-24 w-auto pb-4 md:h-32" />

@@ -35,7 +35,7 @@ const Ecosystem = () => {
   return (
     <section className="container mx-auto bg-black text-brandGreen ">
       <img src={bgCodeblueDown} />
-      <div className="mx-8 py-12">
+      <div className="mx-8">
         <div className="text-center">
           <h2 className="text-4xl font-light uppercase lg:text-6xl">
             Ecosystem

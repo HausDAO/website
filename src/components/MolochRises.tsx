@@ -7,11 +7,11 @@ const MolochRises = () => {
   return (
     <section className="bg-black text-brandRed">
       <div className="mx-auto pb-32 text-center md:container">
-        <div className="">
-          <h2 className="font-mono text-2xl font-light">2022</h2>
-          <img className="mx-auto mb-8" src={molochRises} />
-        </div>
-        <Card className="border-2 border-brandRed">
+        <Card className="mx-auto max-w-6xl border-2 border-brandRed">
+          <div className="">
+            <h2 className="font-mono text-2xl font-light">2022</h2>
+            <img className="mx-auto mb-8" src={molochRises} />
+          </div>
           <div className="gap-8 p-8 md:columns-1 lg:columns-3">
             <div className="mb-8 flex flex-col items-center">
               <h4 className="mb-4 text-2xl uppercase">Governance Focus</h4>

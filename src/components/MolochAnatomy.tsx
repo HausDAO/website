@@ -30,8 +30,8 @@ const MolochAnatomy = () => {
   return (
     <section className="text-brandRed">
       <img src={bgCodeblackDown} className="h-auto w-full" />
-      <div className="mx-auto -mt-48 md:container md:mx-auto">
-        <div className="py-48">
+      <div className="mx-auto -mt-48 max-w-6xl md:mx-auto">
+        <div className="p-12 px-8 pt-48">
           <div className="mx-auto my-12 max-w-xl text-center">
             <h4 className="text-lg uppercase lg:text-3xl">ANATOMY OF a</h4>
             <h2 className="text-2xl uppercase lg:text-5xl">Moloch V3 DAO</h2>

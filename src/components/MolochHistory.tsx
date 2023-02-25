@@ -25,7 +25,7 @@ const historyData = [
     title: 'V2.5: Minions allow for arbitrary execution',
     description:
       'To automate some of the regular governance operations, smart contracts were added to support things like multiple transactions in one proposal. These smart contracts were called Minions.',
-    highlights: ['arbitrary tx', 'Cross-chain', 'dao to dao'],
+    highlights: ['Arbitrary Tx', 'Cross-chain', 'DAO to DAO'],
   },
 ];
 
@@ -34,7 +34,7 @@ const MolochHistory = () => {
     <section className="bg-brandRed text-white">
       <img src={bgCodeblackDown} className="bg-red" />
       <div className="mx-8 max-w-6xl py-8 md:mx-auto">
-        <div className="my-24 text-center">
+        <div className="mb-24 text-center">
           <h3 className="flex justify-center text-center text-2xl font-light uppercase lg:text-4xl">
             A brief history of
           </h3>

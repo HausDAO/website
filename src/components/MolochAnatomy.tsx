@@ -28,9 +28,9 @@ const anatomyData = [
 
 const MolochAnatomy = () => {
   return (
-    <section className=" text-brandRed">
-      <img src={bgCodeblackDown} className="absolute h-auto max-h-96 w-full" />
-      <div className="mx-8 md:mx-40">
+    <section className="text-brandRed">
+      <img src={bgCodeblackDown} className="h-auto w-full" />
+      <div className="mx-auto -mt-48 md:container md:mx-auto">
         <div className="py-48">
           <div className="mx-auto my-12 max-w-xl text-center">
             <h4 className="text-lg uppercase lg:text-3xl">ANATOMY OF a</h4>

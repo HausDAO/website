@@ -5,7 +5,7 @@ import Card from './Card';
 const Dialog = () => {
   return (
     <section className="bg-brandRed pb-24 text-white">
-      <div className="bg-fire bg-cover bg-top bg-no-repeat py-12 md:bg-contain md:py-48">
+      <div className="bg-fire bg-cover bg-top bg-no-repeat py-12 md:container md:mx-auto md:bg-contain md:py-48">
         <div className="mx-8 w-1/2 md:mx-40">
           <h2 className="text-4xl font-light uppercase text-white lg:text-6xl">
             Have Thy
@@ -18,7 +18,7 @@ const Dialog = () => {
         </div>
       </div>
 
-      <div className="mx-8 mt-4 md:mx-40">
+      <div className="mt-4 md:container md:mx-auto">
         <Card>
           <div className="gap-16 md:columns-1 lg:columns-3">
             <div className="my-8">

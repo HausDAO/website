@@ -49,7 +49,7 @@ const Ecosystem = () => {
             Various applications built on the DAOhaus protocol, by and for the broader community,
             are available for any organization.
           </p>
-          <div className="my-12 columns-1 text-left md:columns-3">
+          <div className="md-container my-12 mx-auto max-w-6xl columns-1 text-left md:columns-3">
             {appData.map((app, index) => (
               <HausApp key={index} {...app} />
             ))}

@@ -33,7 +33,7 @@ const MolochHistory = () => {
   return (
     <section className="bg-brandRed text-white">
       <img src={bgCodeblackDown} className="bg-red" />
-      <div className="mx-8 py-8 md:mx-40">
+      <div className="mx-8 max-w-6xl py-8 md:mx-auto">
         <div className="my-24 text-center">
           <h3 className="flex justify-center text-center text-2xl font-light uppercase lg:text-4xl">
             A brief history of

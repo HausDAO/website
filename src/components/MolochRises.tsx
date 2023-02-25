@@ -6,7 +6,7 @@ import molochRises from '../assets/molochiii_rises.svg';
 const MolochRises = () => {
   return (
     <section className="bg-black text-brandRed">
-      <div className="mx-8 text-center md:mx-40">
+      <div className="mx-auto pb-32 text-center md:container">
         <div className="">
           <h2 className="font-mono text-2xl font-light">2022</h2>
           <img className="mx-auto mb-8" src={molochRises} />

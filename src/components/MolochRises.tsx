@@ -9,7 +9,7 @@ const MolochRises = () => {
       <div className="mx-8 text-center md:mx-40">
         <div className="">
           <h2 className="font-mono text-2xl font-light">2022</h2>
-          <img className="mx-auto" src={molochRises} />
+          <img className="mx-auto mb-8" src={molochRises} />
         </div>
         <Card className="border-2 border-brandRed">
           <div className="gap-8 p-8 md:columns-1 lg:columns-3">

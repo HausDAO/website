@@ -1,13 +1,12 @@
 import React from 'react';
+import { FaDiscord, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <footer className="bg-brandBlue text-white">
       <div className="grid grid-cols-2 gap-8 px-6 py-24 md:container md:mx-auto md:grid-cols-4">
         <div>
-          <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">
-            DAOHaus
-          </h2>
+          <h2 className="mb-6 text-sm uppercase text-white dark:text-white">DAOHaus</h2>
           <ul className="text-white dark:text-white">
             <li className="mb-4">
               <a href="/#" className=" hover:underline">
@@ -24,86 +23,67 @@ const Footer = () => {
                 Moloch V3
               </a>
             </li>
-          </ul>
-        </div>
-        <div>
-          <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">Use</h2>
-          <ul className="text-white dark:text-white">
             <li className="mb-4">
               <a href="/#" className="hover:underline">
-                For Users
+                Get Support
               </a>
             </li>
+          </ul>
+          <div className="flex gap-4">
+            <a href="https://discord.gg/daohaus" target="_blank" className="hover:cursor-pointer">
+              <FaDiscord />
+            </a>
+            <a href="https://twitter.com/nowdaoit" target="_blank" className="hover:cursor-pointer">
+              <FaTwitter />
+            </a>
+          </div>
+        </div>
+        <div>
+          <h2 className="mb-6 text-sm uppercase text-white dark:text-white">Apps</h2>
+          <ul className="text-white dark:text-white">
             <li className="mb-4">
-              <a href="/#" className="hover:underline">
+              <a href="/#" className="hover:underline" target="_blank">
                 Summoner
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#" className="hover:underline">
-                Coordinator
+              <a href="/#" className="hover:underline" target="_blank">
+                Mission CTRL
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#" className="hover:underline">
+              <a href="/#" className="hover:underline" target="_blank">
                 DOCS/Users
-              </a>
-            </li>
-            <li className="mb-4">
-              <a href="/#" className="hover:underline">
-                Get Support
               </a>
             </li>
           </ul>
         </div>
         <div>
-          <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">Build</h2>
+          <h2 className="mb-6 text-sm uppercase text-white dark:text-white">Docs</h2>
           <ul className="text-white dark:text-white">
             <li className="mb-4">
-              <a href="/#" className="hover:underline">
-                For Devs
-              </a>
-            </li>
-            <li className="mb-4">
-              <a href="/#" className="hover:underline">
-                DOCS/Moloch
-              </a>
-            </li>
-            <li className="mb-4">
-              <a href="/#" className="hover:underline">
+              <a href="/#" className="hover:underline" target="_blank">
                 DOCS/DAOHaus
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#" className="hover:underline">
-                Get Support
+              <a href="/#" className="hover:underline" target="_blank">
+                DOCS/Moloch
               </a>
             </li>
           </ul>
         </div>
         <div>
-          <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">
-            Govern
-          </h2>
+          <h2 className="mb-6 text-sm uppercase text-white dark:text-white">Governance</h2>
           <ul className="text-white dark:text-white">
             <li className="mb-4">
-              <a href="/#" className="hover:underline">
+              <a href="/#" className="hover:underline" target="_blank">
                 Public Haus
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#" className="hover:underline">
+              <a href="/#" className="hover:underline" target="_blank">
                 DOCS/Public Haus
-              </a>
-            </li>
-            <li className="mb-4">
-              <a href="/#" className="hover:underline">
-                Windows
-              </a>
-            </li>
-            <li className="mb-4">
-              <a href="/#" className="hover:underline">
-                MacOS
               </a>
             </li>
           </ul>

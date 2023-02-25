@@ -18,15 +18,15 @@ const appData = [
   {
     title: 'Mission Control',
     description:
-      'While challenging, anyone can bring together autonomous contributors for decentralized collaborations and governance.',
+      'Vote and make proposals for the DAOs that you are a member of. Check out new DAOs and DAOs you have been curious about.',
     buttonText: 'Launch App',
     href: 'https://admin.daohaus.fun/',
   },
   {
-    title: 'HUB',
+    title: 'Build Your Own',
     description:
-      'Vote and make proposals for the DAOs that you are a member of. Check out new DAOs and DAOs you have been curious about.',
-    buttonText: 'Launch App',
+      'Do you have an idea for a DAO tool? DAOhaus encourages development on top of the protocol and is available for support.',
+    buttonText: 'Read More',
     href: 'https://hub.daohaus.fun/',
   },
 ];
@@ -55,14 +55,6 @@ const Ecosystem = () => {
             ))}
           </div>
         </div>
-        <Card className="border-dotted border-brandGreen p-8">
-          <h4 className="text-3xl font-light">Build your own purpose-driven DAO or APP</h4>
-          <p className="my-8">
-            Do you have an idea for a DAO tool? DAOhaus encourages development on top of the
-            protocol and is available for support.
-          </p>
-          <Button>Read More</Button>
-        </Card>
         <div className="text-center">
           <h2 className="mt-24 text-4xl font-light uppercase lg:text-6xl">
             Governance &

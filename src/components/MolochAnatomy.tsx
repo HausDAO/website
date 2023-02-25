@@ -37,8 +37,10 @@ const MolochAnatomy = () => {
             <h2 className="text-2xl uppercase lg:text-5xl">Moloch V3 DAO</h2>
             <h3 className="text-lg uppercase lg:text-3xl">in DAOhaus</h3>
             <p className="text-md mt-4 text-center">
-              With Safes used as vaults, Moloch V3 focuses on the governance layer. Allowing for
-              much more extensible decision-making.
+              With Safes used as vaults, Moloch V3 focuses on the governance layer, allowing for
+              much more extensible, purpose-driven decision-making. When you summon a Moloch V3, a
+              Safe is also deployed as the main vault. Other Safes can be added as well, governed by
+              the same Moloch, or shared by many.
             </p>
           </div>
         </div>
@@ -64,14 +66,17 @@ const MolochAnatomy = () => {
         </Card>
         <Card className="border-t-2 border-l-0 border-r-0 border-b-0 border-brandRed">
           <div className="flex flex-col flex-wrap justify-between md:flex-row">
-            <div className="flex-col">
+            <div className="max-w-sm flex-col">
               <h2 className="mb-4 text-3xl">
                 Transaction
                 <br />
                 Layer
               </h2>
               <h4 className="mb-4 text-xl">Safe and Zodiac</h4>
-              <p>Zodiac carries the transactin data. Safe(s) hold any tokenized assets</p>
+              <p>
+                Zodiac carries the transaction data to the Safe(s) hold any tokenized assets and
+                sends transaction data to execution layer.
+              </p>
             </div>
             <div className="flex-col">
               <img src={m3Tx} className="mt-8 w-[600px]" />
@@ -80,7 +85,7 @@ const MolochAnatomy = () => {
         </Card>
         <Card className="border-t-2 border-l-0 border-r-0 border-b-2 border-brandRed">
           <div className="flex flex-col flex-wrap justify-between md:flex-row">
-            <div className="max-w-xl">
+            <div className="max-w-sm flex-col">
               <h2 className="mb-4 text-3xl">
                 Execution
                 <br />
@@ -105,10 +110,13 @@ const MolochAnatomy = () => {
         </div> */}
         <div className="my-24 mx-auto flex max-w-xl flex-col justify-center text-center">
           <h3 className="mb-4 text-3xl">Endless possibilities</h3>
-          <p>
-            With Safes used as vaults, Moloch V3 focuses on the governance layer. Allowing for much
-            more extensible decision-making.
-          </p>
+          <h4>Common Integrations</h4>
+          <p>Coordinape</p>
+          <p>Snapshot</p>
+          <p>Safe</p>
+          <p>Hedgey</p>
+          <p>Swapr</p>
+          <p>Disperse</p>
         </div>
       </div>
       <img src={bgCoderedUp} />

@@ -12,14 +12,14 @@ interface HistoryItemProps {
 const HistoryItem = (props: HistoryItemProps) => {
   const { year, title, description, highlights, className } = props;
   return (
-    <Card className={className}>
-      <div className="display flex flex-col">
-        <h3 className="text-xl font-light">{year}</h3>
+    <Card className={'flex flex-col flex-wrap justify-between md:flex-row ' + className}>
+      <div className="max-w-xl flex-col">
+        <h3 className="font-mono text-xl font-light">{year}</h3>
         <h4 className="mb-6 uppercase">{title}</h4>
         <p>{description}</p>
       </div>
-      <div className="">
-        <h5 className="mb-6">Hightlights</h5>
+      <div className="mt-8 md:ml-auto">
+        <h5 className="mb-6">Highlights</h5>
         <ul>
           {highlights.map((highlight) => (
             <li key={highlight}>{highlight}</li>

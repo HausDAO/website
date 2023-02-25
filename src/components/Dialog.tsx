@@ -5,9 +5,9 @@ import Card from './Card';
 const Dialog = () => {
   return (
     <section className="bg-brandRed px-12 pb-24 text-white">
-      <div className="md:container md:mx-auto">
+      <div className="py-12 md:container md:mx-auto">
         <Card>
-          <div className="bg-fire bg-cover bg-top bg-no-repeat md:container md:mx-auto md:bg-contain md:py-48">
+          <div className="bg-fire bg-cover bg-top bg-no-repeat md:bg-contain md:py-48">
             <div className="w-1/2">
               <h2 className="text-4xl font-light uppercase text-white lg:text-6xl">
                 Have Thy
@@ -19,7 +19,7 @@ const Dialog = () => {
               </p>
             </div>
           </div>
-          <div className="gap-16 md:columns-1 lg:columns-3">
+          <div className="flex gap-16 lg:flex">
             <div className="my-8">
               <h4 className="mb-4 text-3xl uppercase">1 on 1 Consultation</h4>
               <p>
@@ -28,7 +28,7 @@ const Dialog = () => {
               </p>
             </div>
             <div className="my-8">
-              <h4 className="mb-4 text-3xl uppercase">Education</h4>
+              <h4 className="mb-4 text-3xl uppercase">Team/Community Education</h4>
               <p>
                 You don’t have to be a member of a DAO to take advantage of wisdom from the DAOhaus
                 community.

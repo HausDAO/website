@@ -28,7 +28,7 @@ const anatomyData = [
 
 const MolochAnatomy = () => {
   return (
-    <section className="text-brandRed">
+    <section className="text-brandRed" id="daohaus-v3">
       <img src={bgCodeblackDown} className="h-auto w-full" />
       <div className="mx-auto -mt-48 max-w-6xl md:mx-auto">
         <div className="p-12 px-8 pt-48">
@@ -46,13 +46,17 @@ const MolochAnatomy = () => {
         </div>
         <Card className="border-t-2 border-l-0 border-r-0 border-b-0 border-brandRed">
           <div className="flex flex-col flex-wrap justify-between md:flex-row">
-            <div className="flex-col">
+            <div className="max-w-xs flex-col">
               <h2 className="mb-4 text-3xl">
                 Governance
                 <br />
                 Layer
               </h2>
               <h4 className="mb-4 text-xl">Moloch V3</h4>
+              <p>
+                When you summon a Moloch V3, a Safe is also deployed as the main vault. Other Safes
+                can be added as well, governed by the same Moloch, or shared by many.
+              </p>
               <p>Member Management</p>
               <p>General Governance</p>
               <p>Token Governance</p>
@@ -60,13 +64,13 @@ const MolochAnatomy = () => {
               <p>Arbitrary Execution</p>
             </div>
             <div className="flex-col">
-              <img className="mt-8 w-[800px] " src={m3Governance} />
+              <img className="mt-8 w-[700px] " src={m3Governance} />
             </div>
           </div>
         </Card>
         <Card className="border-t-2 border-l-0 border-r-0 border-b-0 border-brandRed">
           <div className="flex flex-col flex-wrap justify-between md:flex-row">
-            <div className="max-w-sm flex-col">
+            <div className="max-w-xs flex-col">
               <h2 className="mb-4 text-3xl">
                 Transaction
                 <br />
@@ -85,7 +89,7 @@ const MolochAnatomy = () => {
         </Card>
         <Card className="border-t-2 border-l-0 border-r-0 border-b-2 border-brandRed">
           <div className="flex flex-col flex-wrap justify-between md:flex-row">
-            <div className="max-w-sm flex-col">
+            <div className="max-w-xs flex-col">
               <h2 className="mb-4 text-3xl">
                 Execution
                 <br />

@@ -14,17 +14,17 @@ const Footer = () => {
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#" className="hover:underline">
+              <a href="/#daohaus-v3" className="hover:underline">
                 DAOHaus V3
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#" className="hover:underline">
+              <a href="/#moloch" className="hover:underline">
                 Moloch V3
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#" className="hover:underline">
+              <a href="https://discord.gg/daohaus" target="_blank" className="hover:underline">
                 Get Support
               </a>
             </li>
@@ -42,17 +42,17 @@ const Footer = () => {
           <h2 className="mb-6 text-sm uppercase text-white dark:text-white">Apps</h2>
           <ul className="text-white dark:text-white">
             <li className="mb-4">
-              <a href="/#" className="hover:underline" target="_blank">
+              <a href="https://summon.daohaus.fun/" className="hover:underline" target="_blank">
                 Summoner
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#" className="hover:underline" target="_blank">
+              <a href="https://summon.daohaus.fun/" className="hover:underline" target="_blank">
                 Mission CTRL
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#" className="hover:underline" target="_blank">
+              <a href="https://docs.daohaus.club/user" className="hover:underline" target="_blank">
                 DOCS/Users
               </a>
             </li>
@@ -62,13 +62,17 @@ const Footer = () => {
           <h2 className="mb-6 text-sm uppercase text-white dark:text-white">Docs</h2>
           <ul className="text-white dark:text-white">
             <li className="mb-4">
-              <a href="/#" className="hover:underline" target="_blank">
+              <a
+                href="https://docs.daohaus.club/developer"
+                className="hover:underline"
+                target="_blank"
+              >
                 DOCS/DAOHaus
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#" className="hover:underline" target="_blank">
-                DOCS/Moloch
+              <a href="https://baal-docs.vercel.app/" className="hover:underline" target="_blank">
+                DOCS/Moloch V3
               </a>
             </li>
           </ul>
@@ -77,12 +81,12 @@ const Footer = () => {
           <h2 className="mb-6 text-sm uppercase text-white dark:text-white">Governance</h2>
           <ul className="text-white dark:text-white">
             <li className="mb-4">
-              <a href="/#" className="hover:underline" target="_blank">
+              <a href="https://publichaus.club" className="hover:underline" target="_blank">
                 Public Haus
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#" className="hover:underline" target="_blank">
+              <a href="https://docs.publichaus.club" className="hover:underline" target="_blank">
                 DOCS/Public Haus
               </a>
             </li>

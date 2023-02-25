@@ -38,7 +38,7 @@ const Ecosystem = () => {
   return (
     <section className="bg-black text-brandGreen ">
       <img src={bgCodeblueDown} />
-      <div className="mx-8 py-12 md:mx-40">
+      <div className="mx-8 py-4 md:mx-40">
         <div className="text-center">
           <h2 className="text-4xl font-light uppercase lg:text-6xl">
             Ecosystem
@@ -48,7 +48,7 @@ const Ecosystem = () => {
           <h3 className="my-4 font-sans text-xl font-extrabold uppercase lg:text-3xl">
             Using the DAOHaus SDK
           </h3>
-          <p className="font-heading font-light">
+          <p className="mx-auto max-w-md font-sans font-light">
             Various applications built on the DAOhaus protocol, by and for the broader community,
             are available for any organization.
           </p>

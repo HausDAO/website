@@ -46,7 +46,7 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#/daohaus-v3"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
                 V3

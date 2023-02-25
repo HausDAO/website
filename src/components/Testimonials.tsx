@@ -27,14 +27,16 @@ const testimonialData = [
 
 const Testimonials = () => {
   return (
-    <section className="h-full bg-brandBlue">
+    <section className="-mt-72 h-full">
       <div className="static">
         <img src={bgAurora} className="" />
       </div>
-      <div className="mx-auto -mt-24 h-full max-w-xl px-4 text-center md:-mt-48">
-        <h2 className="font-heading text-2xl uppercase text-white">DAOHaus</h2>
-        <h3 className="mb-12 font-heading text-4xl uppercase text-white">In the Wild</h3>
-        <div className="flex flex-col space-y-4">
+      <div className="bg-brandBlue px-4 md:-mt-0">
+        <h2 className="text-center font-heading text-2xl uppercase text-white">DAOHaus</h2>
+        <h3 className="mb-12 text-center font-heading text-4xl uppercase text-white">
+          In the Wild
+        </h3>
+        <div className="mx-auto flex h-full max-w-3xl flex-col space-y-4 pb-12">
           {testimonialData.map((testimonial, index) => (
             <Testimonial key={index} {...testimonial} />
           ))}

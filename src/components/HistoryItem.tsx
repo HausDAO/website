@@ -18,7 +18,7 @@ const HistoryItem = (props: HistoryItemProps) => {
         <h4 className="mb-6 uppercase">{title}</h4>
         <p>{description}</p>
       </div>
-      <div className="mt-8 md:ml-auto">
+      <div className="mt-8 w-1/3 md:ml-auto">
         <h5 className="mb-6">Highlights</h5>
         <ul>
           {highlights.map((highlight) => (

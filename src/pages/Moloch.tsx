@@ -5,6 +5,7 @@ import MolochHistory from 'components/MolochHistory';
 import MolochAnatomy from 'components/MolochAnatomy';
 import MolochRises from 'components/MolochRises';
 import molochLogoStack from '../assets/molochiii_logostack.svg';
+import { Button } from 'components/Button';
 
 const Moloch = () => {
   return (
@@ -24,6 +25,7 @@ const Moloch = () => {
               DAOHaus V3 delivers it
               <br /> as a governance toolkit
             </p>
+            <Button className="mt-8">Read More</Button>
           </div>
         </div>
       </section>

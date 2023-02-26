@@ -7,7 +7,7 @@ const Governance = () => {
   return (
     <section className="bg-white text-brandBlue">
       <img src={bgCoderedDown} />
-      <div className="mx-auto flex w-1/2 flex-col">
+      <div className="mx-auto w-1/2 flex-col">
         <h2 className="mb-4 text-3xl uppercase">Govern in Public Haus</h2>
         <h3 className="mb-4 font-sans text-xl">DAOhaus Ecosystem DAO</h3>
         <p className="mb-6 text-sm">DAOhaus is a Public Good and you should help govern it.</p>

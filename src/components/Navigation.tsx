@@ -2,6 +2,8 @@ import React from 'react';
 
 import { ReactComponent as HausLogo } from 'assets/haus-logo.svg';
 import { ReactComponent as DaoHaus } from 'assets/daohaus.svg';
+import { FaDiscord } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
 
 const Navigation = () => {
   return (
@@ -37,18 +39,17 @@ const Navigation = () => {
             <li>
               <a
                 href="#"
-                className="block rounded bg-blue-700 py-2 pl-3 pr-4 text-white dark:text-white md:bg-transparent md:p-0 md:text-blue-700"
-                aria-current="page"
+                className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
                 Home
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#/daohaus-v3"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
-                About
+                V3
               </a>
             </li>
             <li>
@@ -56,7 +57,7 @@ const Navigation = () => {
                 href="#"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
-                Services
+                Summoner
               </a>
             </li>
             <li>
@@ -64,7 +65,7 @@ const Navigation = () => {
                 href="#"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
-                Pricing
+                Mission CTRL
               </a>
             </li>
             <li>
@@ -72,7 +73,31 @@ const Navigation = () => {
                 href="#"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
-                Contact
+                Docs
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
+              >
+                Governance
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
+              >
+                <FaDiscord />
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
+              >
+                <FaTwitter />
               </a>
             </li>
           </ul>

@@ -8,7 +8,7 @@ import { Button } from './Button';
 
 const PublicGoods = () => {
   return (
-    <section className="container mx-auto mb-14 text-center text-brandRed md:py-48">
+    <section className="static mx-auto pt-24 pb-12 text-center text-brandRed md:container">
       <div className="mx-8 text-center md:my-24">
         <h2 className="text-3xl uppercase md:text-5xl">
           Infinite

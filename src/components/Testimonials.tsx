@@ -1,11 +1,12 @@
 import React from 'react';
 import Testimonial from './Testimonial';
+import bgAurora from '../assets/bg_aurora.png';
 
 const testimonialData = [
   {
     title: 'Protocol Guild',
     description:
-      'Consisting of core Ethereum developers, Protocol Guild prioritizes minimal governance for the most member engagement.',
+      'Consisting of core Ethereum developers, Protocol Guild prioritizes minimal governance in member engagement.',
     buttonText: 'Read More',
     href: 'https://summon.daohaus.fun/',
   },
@@ -18,7 +19,8 @@ const testimonialData = [
   },
   {
     title: 'Raid Brood',
-    description: 'Who could it be? Buy beer, drink beer, get nft, get shares.',
+    description:
+      'NFTs are rewards for purchasing beer and then staked for membership into a DAO that collectively owns products.',
     buttonText: 'Read More',
     href: 'https://hub.daohaus.fun/',
   },
@@ -26,11 +28,16 @@ const testimonialData = [
 
 const Testimonials = () => {
   return (
-    <section className="h-full bg-brandBlue bg-aurora bg-contain bg-top bg-no-repeat">
-      <div className="mx-8 pb-12 pt-52 text-center md:mx-40">
-        <h2 className="font-body text-2xl font-bold uppercase text-white">DAOHaus</h2>
-        <h3 className="mb-6 font-body text-4xl uppercase text-white">In the Wild</h3>
-        <div className="flex flex-col space-y-4">
+    <section className="-mt-96 h-full">
+      <div className="static">
+        <img src={bgAurora} className="" />
+      </div>
+      <div className="bg-brandBlue px-4 md:-mt-0">
+        <h2 className="text-center font-heading text-2xl uppercase text-white">DAOHaus</h2>
+        <h3 className="mb-12 text-center font-heading text-4xl uppercase text-white">
+          In the Wild
+        </h3>
+        <div className="mx-auto flex h-full max-w-3xl flex-col space-y-4 pb-12">
           {testimonialData.map((testimonial, index) => (
             <Testimonial key={index} {...testimonial} />
           ))}

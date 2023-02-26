@@ -18,9 +18,12 @@ module.exports = {
         brandGreen: '#11F487',
       },
       backgroundImage: {
-        hero: "url('/img/bg-north-star.png')",
+        hero: "url('/img/bg_northStar.png')",
         fire: "url('/img/bg_fire.png')",
         aurora: "url('/img/dh_aurora.png')",
+      },
+      backgroundPosition: {
+        herotop: 'right top 300px',
       },
     },
   },

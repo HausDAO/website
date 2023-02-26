@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { FaDiscord, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
@@ -8,9 +9,9 @@ const Footer = () => {
           <h2 className="mb-6 text-sm uppercase text-white dark:text-white">DAOHaus</h2>
           <ul className="text-white dark:text-white">
             <li className="mb-4">
-              <a href="/#" className=" hover:underline">
+              <Link to="/" className=" hover:underline">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="mb-4">
               <a href="/#daohaus-v3" className="hover:underline">
@@ -18,13 +19,13 @@ const Footer = () => {
               </a>
             </li>
             <li className="mb-4">
-              <a href="/#moloch" className="hover:underline">
+              <Link to="/moloch" className="hover:underline">
                 Moloch V3
-              </a>
+              </Link>
             </li>
             <li className="mb-4">
               <a
-                href="https://discord.gg/daohaus"
+                href="https://discord.com/channels/709210493549674598/735524730328711188"
                 target="_blank"
                 className="hover:underline"
                 rel="noreferrer"
@@ -67,7 +68,7 @@ const Footer = () => {
             </li>
             <li className="mb-4">
               <a
-                href="https://summon.daohaus.fun/"
+                href="https://admin.daohaus.fun/"
                 className="hover:underline"
                 target="_blank"
                 rel="noreferrer"

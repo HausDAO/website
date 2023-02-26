@@ -1,8 +1,5 @@
-import React from 'react';
-import bgCoderedUp from '../assets/bg_codered-up.png';
 import bgCoderedDown from '../assets/bg_codered-down.png';
 import bgCodeblackDown from '../assets/bg_codeblack-down.png';
-import Card from './Card';
 import HistoryItem from './HistoryItem';
 
 const historyData = [
@@ -37,7 +34,7 @@ const historyData = [
 const MolochHistory = () => {
   return (
     <section className="bg-brandRed text-white">
-      <img src={bgCodeblackDown} className="bg-red" />
+      <img src={bgCodeblackDown} className="bg-red" alt="Black code pixels cascading up" />
       <div className="mx-8 max-w-6xl py-8 md:mx-auto">
         <div className="mb-24 text-center">
           <h3 className="flex justify-center text-center text-2xl font-light uppercase lg:text-4xl">
@@ -51,7 +48,7 @@ const MolochHistory = () => {
           ))}
         </div>
       </div>
-      <img src={bgCoderedDown} alt="" className="bg-black" />
+      <img src={bgCoderedDown} className="bg-black" alt="Red code pixels cascading up" />
     </section>
   );
 };

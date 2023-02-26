@@ -1,9 +1,6 @@
-import React from 'react';
+import { FaDiscord, FaTwitter } from 'react-icons/fa';
 
 import { ReactComponent as HausLogo } from 'assets/haus-logo.svg';
-import { ReactComponent as DaoHaus } from 'assets/daohaus.svg';
-import { FaDiscord } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
 
 const Navigation = () => {
   return (
@@ -15,7 +12,7 @@ const Navigation = () => {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="ml-3 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-white dark:hover:bg-blue-700 dark:focus:ring-blue-300 md:hidden"
+          className="ml-3 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-brandRed dark:hover:bg-blue-700 dark:focus:ring-blue-300 md:hidden"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -38,7 +35,7 @@ const Navigation = () => {
           <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-white p-4 dark:border-gray-700 dark:bg-white md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:text-sm md:font-medium md:dark:bg-white">
             <li>
               <a
-                href="#"
+                href="/"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
                 Home
@@ -54,7 +51,7 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://summon.daohaus.fun/"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
                 Summoner
@@ -62,7 +59,7 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://admin.daohaus.fun/"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
                 Mission CTRL
@@ -70,7 +67,7 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://docs.daohaus.club/"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
                 Docs
@@ -78,7 +75,7 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://publichaus.club/"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
                 Governance
@@ -86,7 +83,7 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://discord.com/channels/709210493549674598/735524730328711188"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
                 <FaDiscord />
@@ -94,7 +91,7 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://twitter.com/nowdaoit"
                 className="block rounded py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800 md:dark:hover:bg-transparent md:dark:hover:text-blue-400"
               >
                 <FaTwitter />

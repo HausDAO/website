@@ -1,10 +1,7 @@
-import React from 'react';
-import { Button } from './Button';
-import Card from './Card';
+import Button from './Button';
 import fullStack from '../assets/fullstack.png';
 import bgCoderedUp from '../assets/bg_codered-up.png';
 import bgCodeblueDown from '../assets/bg_codeblue-down.png';
-import bgCodeblueUp from '../assets/bg_codeblue-up.png';
 import HausApp from './HausApp';
 
 const appData = [
@@ -14,14 +11,14 @@ const appData = [
       'When you first put the specifics of your decentralized and autonomous governance on chain',
     buttonText: 'Launch App',
     href: 'https://summon.daohaus.fun/',
-    border: 'solid',
+    border: 'border-solid',
   },
   {
     title: 'Mission Control',
     description: 'Vote and make proposals for the DAOs that you are a member of.',
     buttonText: 'Launch App',
     href: 'https://admin.daohaus.fun/',
-    border: 'solid',
+    border: 'border-solid',
   },
   {
     title: 'Build Your Own',
@@ -29,14 +26,14 @@ const appData = [
       'Do you have an idea for a DAO tool? DAOhaus encourages development on top of the protocol and is available for support.',
     buttonText: 'Read More',
     href: 'https://docs.daohaus.club/devs',
-    border: 'dashed',
+    border: 'border-dashed',
   },
 ];
 
 const Ecosystem = () => {
   return (
     <section className="bg-black text-brandGreen">
-      <img src={bgCodeblueDown} />
+      <img src={bgCodeblueDown} alt="Blue code pixels cascading down" />
       <div className="mx-8 py-4 md:mx-40">
         <div className="text-center">
           <h2 className="text-4xl font-light uppercase lg:text-6xl">
@@ -53,7 +50,7 @@ const Ecosystem = () => {
           </p>
           <div className="md-container my-12 mx-auto max-w-6xl columns-1 text-left md:columns-3">
             {appData.map((app, index) => (
-              <HausApp key={index} {...app} />
+              <HausApp key={index} className={app.border} {...app} />
             ))}
           </div>
         </div>
@@ -73,14 +70,16 @@ const Ecosystem = () => {
           <div className="my-12 mx-auto flex max-w-6xl flex-row flex-wrap text-left md:flex-nowrap">
             <div className="flex max-w-md flex-col">
               <h2 className="pb-6 text-3xl">Full Stack SDK</h2>
-              <img src={fullStack} className="pr-24" />
-              <div className="mt-8 flex max-w-xl flex-row">
-                <Button>
-                  <a href="https://docs.daohaus.club/" target="_blank">
+              <img src={fullStack} className="pr-24" alt="Moloch full stack" />
+              <div className="mt-8 flex max-w-xl flex-row space-x-4">
+                <Button bgColor="tertiary" borderColor="tertiary" textColor="black">
+                  <a href="https://docs.daohaus.club/" target="_blank" rel="noreferrer">
                     Docs
                   </a>
                 </Button>
-                <Button>Support</Button>
+                <Button bgColor="tertiary" borderColor="tertiary" textColor="black">
+                  Support
+                </Button>
               </div>
             </div>
             <div className="mx-auto max-w-md pt-12">
@@ -104,7 +103,7 @@ const Ecosystem = () => {
           </div>
         </div>
       </div>
-      <img src={bgCoderedUp} />
+      <img src={bgCoderedUp} alt="Red code pixels cascading up" />
     </section>
   );
 };

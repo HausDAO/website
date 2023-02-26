@@ -1,12 +1,12 @@
 @import './styles/reset.css';
-@import url("https://use.typekit.net/pgp1osb.css");
+@import url('https://use.typekit.net/pgp1osb.css');
 
 @import './styles/reset.css';
 
 body {
   margin: 0;
-  font-family: 'Stolzl', 'Roboto', 'Oxygen', 'Ubuntu',
-    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Stolzl', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -15,8 +15,15 @@ code {
   font-family: 'BDR Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Manofa', serif;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Manofa', serif;
+}
 
-  a { cursor: pointer; }
+a {
+  cursor: pointer;
+}

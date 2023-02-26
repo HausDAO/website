@@ -12,7 +12,11 @@
     {
       // enable eslint-plugin-testing-library rules or preset only for matching files!
       "files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
-      "extends": ["plugin:jest/recommended", "plugin:jest-dom/recommended", "plugin:testing-library/react"]
+      "extends": [
+        "plugin:jest/recommended",
+        "plugin:jest-dom/recommended",
+        "plugin:testing-library/react"
+      ]
     },
     {
       "files": ["**/*.ts?(x)"],
@@ -30,13 +34,6 @@
       "@typescript-eslint/parser": [".ts", ".tsx"]
     },
     "import/resolver": {
-      "aliases": [
-        ["@components", "./src/components"],
-        ["@hooks", "./src/hooks"],
-        ["@pages", "./src/pages"],
-        ["@utils", "./src/utils"],
-        ["@assets", "./src/assets"]
-      ],
       "typescript": {}
     },
     "react": {

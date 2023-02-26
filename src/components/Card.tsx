@@ -1,6 +1,8 @@
-import React, { PropsWithChildren } from 'react';
+import React from 'react';
 
-export interface CardProps extends React.ComponentPropsWithoutRef<'div'> {}
+interface CardProps extends React.ComponentPropsWithoutRef<'div'> {
+  className?: string;
+}
 
 const Card = (props: CardProps) => {
   const { children, className } = props;

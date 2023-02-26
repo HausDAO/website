@@ -1,5 +1,4 @@
-import React from 'react';
-import { Button } from './Button';
+import Button from './Button';
 import Card from './Card';
 
 interface HausAppProps {
@@ -8,17 +7,16 @@ interface HausAppProps {
   buttonText: string;
   href: string;
   className?: string;
-  border: string;
 }
 
 const HausApp = (props: HausAppProps) => {
-  const { border, title, description, buttonText, href, className } = props;
+  const { title, description, buttonText, href, className } = props;
   return (
-    <Card className={`border-brandGreen ${'border-' + border}`}>
+    <Card className={`border-brandGreen ${className}`}>
       <h4 className="pt-24 text-2xl font-light uppercase">{title}</h4>
       <p className="my-8">{description}</p>
-      <Button>
-        <a href={href} target="_blank">
+      <Button bgColor="tertiary" borderColor="tertiary" textColor="black">
+        <a href={href} target="_blank" rel="noreferrer">
           {buttonText}
         </a>
       </Button>

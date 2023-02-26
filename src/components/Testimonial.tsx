@@ -1,5 +1,4 @@
-import React from 'react';
-import { Button } from './Button';
+import Button from './Button';
 import Card from './Card';
 
 interface TestimonialProps {
@@ -20,7 +19,12 @@ const Testimonial = (props: TestimonialProps) => {
           <p className="mb-3 text-white">{description}</p>
         </div>
         <div className="ml-auto mt-auto text-right">
-          <Button className="object-right-bottom">
+          <Button
+            bgColor="white"
+            borderColor="white"
+            textColor="secondary"
+            className="object-right-bottom"
+          >
             <a href={href}>{buttonText}</a>
           </Button>
         </div>

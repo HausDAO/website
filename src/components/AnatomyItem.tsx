@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from './Card';
 
 interface AnatomyItemProps {
@@ -31,4 +30,5 @@ const AnatomyItem = (props: AnatomyItemProps) => {
   );
 };
 
+// eslint-disable-next-line import/no-unused-modules
 export default AnatomyItem;

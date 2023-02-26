@@ -1,5 +1,4 @@
-import React from 'react';
-import { Button } from './Button';
+import Button from './Button';
 import Card from './Card';
 
 const Dialog = () => {
@@ -15,7 +14,7 @@ const Dialog = () => {
                 Dialog
               </h2>
               <p className="mt-1 max-w-md font-bold uppercase">
-                Get support building the dao of your community's dreams.
+                Get support building the dao of your community&apos;s dreams.
               </p>
             </div>
           </div>
@@ -30,8 +29,8 @@ const Dialog = () => {
             <div className="my-8">
               <h4 className="mb-4 text-3xl uppercase">Team/Community Education</h4>
               <p>
-                You don’t have to be a member of a DAO to take advantage of wisdom from the DAOhaus
-                community.
+                You don&apos;t have to be a member of a DAO to take advantage of wisdom from the
+                DAOhaus community.
               </p>
             </div>
             <div className="my-8">
@@ -43,8 +42,10 @@ const Dialog = () => {
             </div>
           </div>
         </Card>
-        <div className="text-center">
-          <Button className="my-4">Reach Out</Button>
+        <div className="pt-6 text-center">
+          <Button bgColor="white" borderColor="white" textColor="primary">
+            Reach Out
+          </Button>
         </div>
       </div>
     </section>

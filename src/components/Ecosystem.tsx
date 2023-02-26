@@ -18,8 +18,7 @@ const appData = [
   },
   {
     title: 'Mission Control',
-    description:
-      'Vote and make proposals for the DAOs that you are a member of. Check out new DAOs and DAOs you have been curious about.',
+    description: 'Vote and make proposals for the DAOs that you are a member of.',
     buttonText: 'Launch App',
     href: 'https://admin.daohaus.fun/',
     border: 'solid',
@@ -29,14 +28,14 @@ const appData = [
     description:
       'Do you have an idea for a DAO tool? DAOhaus encourages development on top of the protocol and is available for support.',
     buttonText: 'Read More',
-    href: 'https://hub.daohaus.fun/',
+    href: 'https://docs.daohaus.club/devs',
     border: 'dashed',
   },
 ];
 
 const Ecosystem = () => {
   return (
-    <section className="bg-black text-brandGreen ">
+    <section className="bg-black text-brandGreen">
       <img src={bgCodeblueDown} />
       <div className="mx-8 py-4 md:mx-40">
         <div className="text-center">

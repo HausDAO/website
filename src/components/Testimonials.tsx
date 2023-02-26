@@ -6,7 +6,7 @@ const testimonialData = [
   {
     title: 'Protocol Guild',
     description:
-      'Consisting of core Ethereum developers, Protocol Guild prioritizes minimal governance for the most member engagement.',
+      'Consisting of core Ethereum developers, Protocol Guild prioritizes minimal governance in member engagement.',
     buttonText: 'Read More',
     href: 'https://summon.daohaus.fun/',
   },
@@ -19,7 +19,8 @@ const testimonialData = [
   },
   {
     title: 'Raid Brood',
-    description: 'Who could it be? Buy beer, drink beer, get nft, get shares.',
+    description:
+      'NFTs are rewards for purchasing beer and then staked for membership into a DAO that collectively owns products.',
     buttonText: 'Read More',
     href: 'https://hub.daohaus.fun/',
   },
@@ -27,7 +28,7 @@ const testimonialData = [
 
 const Testimonials = () => {
   return (
-    <section className="-mt-72 h-full">
+    <section className="-mt-96 h-full">
       <div className="static">
         <img src={bgAurora} className="" />
       </div>

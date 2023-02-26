@@ -11,21 +11,26 @@ const historyData = [
     title: 'V1: MVP Fix to The DAO Hack',
     description:
       'MVP fix to ‘The DAO’ hack. The original MolochDAO gave members a way to exit if anything went wrong, or if a member disagreed with choices being made by the DAO. This novel mechanic was called ragequit.',
-    highlights: ['Ragequit', 'Grants Daos', 'Social DAOs'],
+    highlights: ['Ragequit', 'Simple treasury', 'Grants, Guilds & Social Daos'],
   },
   {
     year: '2020',
     title: 'V2: Introduces LOOT',
     description:
-      'The second version of Moloch DAOs provided two types of shareholder, one with voting and economic power and the other with only economic power. The share without voting power was called loot.',
-    highlights: ['Investment DAO', 'Loot'],
+      'First and foremost, Moloch v2 was designed to enhance coordination on a technical level. A second class of token called Loot was added with only exit, no voting, rights. The Treasury could now hold many tokens. Guildkick introduced as a forced exit to remove members while distributing their fair share.',
+    highlights: [
+      'Loot Token (Exit only)',
+      'Treasury can hold many tokens',
+      'Guildkick (forced Ragequit)',
+      'Investment DAOs, Project DAOs',
+    ],
   },
   {
     year: '2021',
     title: 'V2.5: Minions allow for arbitrary execution',
     description:
-      'To automate some of the regular governance operations, smart contracts were added to support things like multiple transactions in one proposal. These smart contracts were called Minions.',
-    highlights: ['Arbitrary Tx', 'Cross-chain', 'DAO to DAO'],
+      'Minions were smart contracts that enabled interaction with arbitrary smart contracts (dapps, daos, cross-chain) as well multiple transactions in one proposal. These smart contracts were called Minions.',
+    highlights: ['Arbitrary Transactions', 'Dapps', 'Cross-chain', 'DAO to DAO'],
   },
 ];
 

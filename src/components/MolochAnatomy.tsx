@@ -36,12 +36,7 @@ const MolochAnatomy = () => {
             <h4 className="text-lg uppercase lg:text-3xl">ANATOMY OF a</h4>
             <h2 className="text-2xl uppercase lg:text-5xl">Moloch V3 DAO</h2>
             <h3 className="text-lg uppercase lg:text-3xl">in DAOhaus</h3>
-            <p className="text-md mt-4 text-center">
-              With Safes used as vaults, Moloch V3 focuses on the governance layer, allowing for
-              much more extensible, purpose-driven decision-making. When you summon a Moloch V3, a
-              Safe is also deployed as the main vault. Other Safes can be added as well, governed by
-              the same Moloch, or shared by many.
-            </p>
+            <p className="text-md mt-4 text-center"></p>
           </div>
         </div>
         <Card className="border-t-2 border-l-0 border-r-0 border-b-0 border-brandRed">
@@ -54,14 +49,15 @@ const MolochAnatomy = () => {
               </h2>
               <h4 className="mb-4 text-xl">Moloch V3</h4>
               <p>
-                When you summon a Moloch V3, a Safe is also deployed as the main vault. Other Safes
-                can be added as well, governed by the same Moloch, or shared by many.
+                Moloch V3 focuses on the governance layer, importing standards such as erc-20 shares
+                and offloading treasury and transaction logic to Safe(s). This allows for much more
+                composability and opportunities for purpose-driven coordination.
               </p>
-              <p>Member Management</p>
-              <p>General Governance</p>
-              <p>Token Governance</p>
-              <p>DAO Configuration</p>
-              <p>Arbitrary Execution</p>
+              <p className="pt-4">- Member Management</p>
+              <p>- General Governance</p>
+              <p>- Token Governance</p>
+              <p>- DAO Configuration</p>
+              <p>- Arbitrary Execution</p>
             </div>
             <div className="flex-col">
               <img className="mt-8 w-[700px] " src={m3Governance} />
@@ -78,6 +74,11 @@ const MolochAnatomy = () => {
               </h2>
               <h4 className="mb-4 text-xl">Safe and Zodiac</h4>
               <p>
+                When you summon a Moloch V3, one can attach an existing Safe or deploy a new one.
+                More Safes can be added as desired, governed by the same Moloch, or even shared by
+                many.
+              </p>
+              <p className="pt-4">
                 Zodiac carries the transaction data to the Safe(s) hold any tokenized assets and
                 sends transaction data to execution layer.
               </p>

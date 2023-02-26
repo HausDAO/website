@@ -4,7 +4,6 @@ import Governance from 'components/Governance';
 import Hero from 'components/Hero';
 import PublicGoods from 'components/PublicGoods';
 import Testimonials from 'components/Testimonials';
-import React from 'react';
 
 const Home = () => {
   return (

@@ -3,6 +3,7 @@
 ## Drop-in Replacement for [CRA](http://create-react-app.dev/) but powered by [Vite](https://vitejs.dev/)
 
 ### Things supported here:
+
 - Import SVG's directly as React Component via SVGR
 - Unit Testing via Jest & React Testing Library
 - ESLint Rules & Prettier
@@ -12,12 +13,14 @@
 ---
 
 ### Extra Additions
+
 - Conventional Commits using `Commitlint`
-- Run Lint Checks, TS Checks, Formatting & Unit Tests  in Pre-commit via `lintstaged` & `husky`
+- Run Lint Checks, TS Checks, Formatting & Unit Tests in Pre-commit via `lintstaged` & `husky`
 
 ---
 
 ### Usage (with [degit](https://github.com/Rich-Harris/degit))
+
 ```bash
 degit uchihamalolan/vite-react-ts your-app-name
 ```
@@ -25,6 +28,7 @@ degit uchihamalolan/vite-react-ts your-app-name
 ---
 
 ### Tech Stack - Overview
+
 - Vite
 - React - Typscript
   - react-error-boundary
@@ -40,6 +44,7 @@ degit uchihamalolan/vite-react-ts your-app-name
 ---
 
 ### Lint and Formatting
+
 - Eslint & Prettier Configured
 - Lints
   - react
@@ -50,9 +55,11 @@ degit uchihamalolan/vite-react-ts your-app-name
 ---
 
 ### Testing
+
 - Jest + React Testing Library (plus some plugins)
 
 ---
 
 ### Styling
+
 - TailwindCSS v3

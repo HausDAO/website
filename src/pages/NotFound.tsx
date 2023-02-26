@@ -1,5 +1,3 @@
-import React from 'react';
-
 const NotFound = () => {
   return (
     <main className="grid min-h-full place-items-center bg-white py-24 px-6 sm:py-32 lg:px-8">
@@ -13,12 +11,15 @@ const NotFound = () => {
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a
-            href="#"
+            href="/"
             className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Go back home
           </a>
-          <a href="#" className="text-sm font-semibold text-gray-900">
+          <a
+            href="https://discord.com/channels/709210493549674598/735524730328711188"
+            className="text-sm font-semibold text-gray-900"
+          >
             Contact support <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -27,4 +28,5 @@ const NotFound = () => {
   );
 };
 
+// eslint-disable-next-line import/no-unused-modules
 export default NotFound;

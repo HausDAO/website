@@ -1,35 +1,14 @@
-import React from 'react';
 import bgCoderedUp from '../assets/bg_codered-up.png';
 import bgCodeblackDown from '../assets/bg_codeblack-down.png';
 import Card from './Card';
-import AnatomyItem from './AnatomyItem';
 import m3Governance from '../assets/m3_governance.svg';
 import m3Tx from '../assets/m3_transaction.svg';
 import m3Execution from '../assets/m3_execution.svg';
 
-const anatomyData = [
-  {
-    title: 'Governance Layer',
-    subtitle: 'Moloch V3',
-    description: 'Member Management',
-  },
-  {
-    title: 'Transaction Layer',
-    subtitle: 'Safe & Zodiac',
-    description: 'Zodiac carries the transactin data. Safe(s) hold any tokenized assets',
-  },
-  {
-    title: 'Execution Layer',
-    subtitle: 'Ethereum virtual machine',
-    description:
-      'Can interact with any contract on ethereum and evm-compatible chains (even cross-chain). Send assets from Safe(s)',
-  },
-];
-
 const MolochAnatomy = () => {
   return (
     <section className="text-brandRed" id="daohaus-v3">
-      <img src={bgCodeblackDown} className="h-auto w-full" />
+      <img src={bgCodeblackDown} className="h-auto w-full" alt="Black code pixels cascading up" />
       <div className="mx-auto -mt-48 max-w-6xl md:mx-auto">
         <div className="p-12 px-8 pt-48">
           <div className="mx-auto my-12 max-w-xl text-center">
@@ -60,7 +39,11 @@ const MolochAnatomy = () => {
               <p>- Arbitrary Execution</p>
             </div>
             <div className="flex-col">
-              <img className="mt-8 w-[700px] " src={m3Governance} />
+              <img
+                className="mt-8 w-[700px]"
+                src={m3Governance}
+                alt="Diagram of moloch governance system"
+              />
             </div>
           </div>
         </Card>
@@ -84,7 +67,11 @@ const MolochAnatomy = () => {
               </p>
             </div>
             <div className="flex-col">
-              <img src={m3Tx} className="mt-8 w-[600px]" />
+              <img
+                src={m3Tx}
+                className="mt-8 w-[600px]"
+                alt="Diagram of Transaction layer for Moloch DAO"
+              />
             </div>
           </div>
         </Card>
@@ -103,7 +90,11 @@ const MolochAnatomy = () => {
               </p>
             </div>
             <div>
-              <img src={m3Execution} className="mt-8 w-[600px]" />
+              <img
+                src={m3Execution}
+                className="mt-8 w-[600px]"
+                alt="Diagram of Moloch DAO execution Layer"
+              />
             </div>
           </div>
         </Card>
@@ -124,7 +115,7 @@ const MolochAnatomy = () => {
           <p>Disperse</p>
         </div>
       </div>
-      <img src={bgCoderedUp} />
+      <img src={bgCoderedUp} alt="Red code pixels cascading up" />
     </section>
   );
 };

@@ -1,4 +1,3 @@
-import React from 'react';
 import Testimonial from './Testimonial';
 import bgAurora from '../assets/bg_aurora.png';
 
@@ -30,7 +29,7 @@ const Testimonials = () => {
   return (
     <section className="-mt-96 h-full">
       <div className="static">
-        <img src={bgAurora} className="" />
+        <img src={bgAurora} alt="Pixelated aurora borealis" />
       </div>
       <div className="bg-brandBlue px-4 md:-mt-0">
         <h2 className="text-center font-heading text-2xl uppercase text-white">DAOHaus</h2>

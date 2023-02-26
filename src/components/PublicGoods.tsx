@@ -1,10 +1,8 @@
-import React from 'react';
-
+import Button from './Button';
 import Card from 'components/Card';
 import { ReactComponent as OpenSourceSVG } from 'assets/dh_opensource.svg';
 import { ReactComponent as CommunityOwnedSVG } from 'assets/dh_communityowned.svg';
 import { ReactComponent as PublicGoodSVG } from 'assets/dh_publicgood.svg';
-import { Button } from './Button';
 
 const PublicGoods = () => {
   return (

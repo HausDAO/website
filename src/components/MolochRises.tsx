@@ -1,5 +1,4 @@
-import React from 'react';
-import { Button } from './Button';
+import Button from './Button';
 import Card from './Card';
 import molochRises from '../assets/molochiii_rises.svg';
 
@@ -10,7 +9,7 @@ const MolochRises = () => {
         <Card className="mx-auto max-w-6xl border-2 border-brandRed">
           <div className="">
             <h2 className="font-mono text-2xl font-light">2022</h2>
-            <img className="mx-auto mb-8" src={molochRises} />
+            <img className="mx-auto mb-8" src={molochRises} alt="Multiple suns rising" />
             <p>
               Moloch V3 (codename: Baal) is a radical simplification and composition of industry
               standards. Baal offloads all vault and transaction logic to Safe and Zodiac. DAO

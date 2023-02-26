@@ -12,7 +12,7 @@ const Navigation = () => {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="ml-3 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-white dark:hover:bg-blue-700 dark:focus:ring-blue-300 md:hidden"
+          className="ml-3 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-brandRed dark:hover:bg-blue-700 dark:focus:ring-blue-300 md:hidden"
           aria-controls="navbar-default"
           aria-expanded="false"
         >

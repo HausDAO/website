@@ -15,7 +15,7 @@ const HausApp = (props: HausAppProps) => {
     <Card className={`border-brandGreen ${className}`}>
       <h4 className="pt-24 text-2xl font-light uppercase">{title}</h4>
       <p className="my-8">{description}</p>
-      <Button>
+      <Button bgColor="tertiary" borderColor="tertiary" textColor="black">
         <a href={href} target="_blank" rel="noreferrer">
           {buttonText}
         </a>

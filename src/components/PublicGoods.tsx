@@ -44,7 +44,7 @@ const PublicGoods = () => {
             </div>
           </div>
         </Card>
-        <div className="">
+        <div className="flex justify-center space-x-6">
           <Button>Moloch V3</Button>
           <Button>DAOHaus V3</Button>
         </div>

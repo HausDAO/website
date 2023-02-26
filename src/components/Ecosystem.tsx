@@ -71,13 +71,15 @@ const Ecosystem = () => {
             <div className="flex max-w-md flex-col">
               <h2 className="pb-6 text-3xl">Full Stack SDK</h2>
               <img src={fullStack} className="pr-24" alt="Moloch full stack" />
-              <div className="mt-8 flex max-w-xl flex-row">
-                <Button>
+              <div className="mt-8 flex max-w-xl flex-row space-x-4">
+                <Button bgColor="tertiary" borderColor="tertiary" textColor="black">
                   <a href="https://docs.daohaus.club/" target="_blank" rel="noreferrer">
                     Docs
                   </a>
                 </Button>
-                <Button>Support</Button>
+                <Button bgColor="tertiary" borderColor="tertiary" textColor="black">
+                  Support
+                </Button>
               </div>
             </div>
             <div className="mx-auto max-w-md pt-12">

@@ -12,7 +12,7 @@ const Hero = () => {
             governance
           </h1>
           <div className="mt-10 flex items-center gap-x-6">
-            <Button>Read More</Button>
+            <Button>Summon a DAO</Button>
           </div>
         </div>
         <div className="ml-auto flex-col" />

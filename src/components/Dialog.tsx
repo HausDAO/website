@@ -42,8 +42,10 @@ const Dialog = () => {
             </div>
           </div>
         </Card>
-        <div className="text-center">
-          <Button className="my-4">Reach Out</Button>
+        <div className="pt-6 text-center">
+          <Button bgColor="white" borderColor="white" textColor="primary">
+            Reach Out
+          </Button>
         </div>
       </div>
     </section>

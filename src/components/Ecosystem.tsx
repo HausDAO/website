@@ -78,7 +78,9 @@ const Ecosystem = () => {
                   </a>
                 </Button>
                 <Button bgColor="tertiary" borderColor="tertiary" textColor="black">
-                  Support
+                  <a href="https://discord.gg/daohaus" target="_blank">
+                    Support
+                  </a>
                 </Button>
               </div>
             </div>

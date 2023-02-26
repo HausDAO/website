@@ -6,7 +6,7 @@ import { ReactComponent as PublicGoodSVG } from 'assets/dh_publicgood.svg';
 
 const PublicGoods = () => {
   return (
-    <section className="static mx-auto pt-24 pb-12 text-center text-brandRed md:container">
+    <section className="static mx-auto pt-24 pb-72 text-center text-brandRed md:container">
       <div className="mx-8 text-center md:my-24">
         <h2 className="text-3xl uppercase md:text-5xl">
           Infinite
@@ -17,14 +17,11 @@ const PublicGoods = () => {
         </h2>
         <p className="my-3 text-2xl font-extrabold uppercase md:text-4xl">for the public good</p>
         <Card className="mt-12 mb-4 border-brandRed px-8">
-          <div className="gap-8 p-8 md:columns-1 lg:columns-3">
+          <div className="gap-8 p-4 md:columns-1 lg:columns-3">
             <div className="mb-8 flex flex-col items-center">
               <OpenSourceSVG className="h-24 w-auto pb-4 md:h-32" />
               <h4 className="uppercase">Open Source</h4>
-              <p>
-                Free and open, the DAOhaus code repository is available to read, improve upon, and
-                fork.
-              </p>
+              <p>Free and open, all DAOhaus code is available to read, improve, and fork.</p>
             </div>
             <div className="mb-8 flex flex-col items-center">
               <CommunityOwnedSVG className="h-24 w-auto pb-4 md:h-32" />
@@ -45,8 +42,9 @@ const PublicGoods = () => {
           </div>
         </Card>
         <div className="flex justify-center space-x-6">
-          <Button>Moloch V3</Button>
-          <Button>DAOHaus V3</Button>
+          <Button>
+            <a href="/moloch">Moloch & DAOhaus V3</a>
+          </Button>
         </div>
       </div>
     </section>

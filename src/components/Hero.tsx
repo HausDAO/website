@@ -12,7 +12,11 @@ const Hero = () => {
             governance
           </h1>
           <div className="mt-10 flex items-center gap-x-6">
-            <Button>Summon a DAO</Button>
+            <Button>
+              <a href="https://summon.daohaus.fun" target="_blank">
+                Summon a DAO
+              </a>
+            </Button>
           </div>
         </div>
         <div className="ml-auto flex-col" />

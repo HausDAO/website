@@ -18,23 +18,23 @@ const Dialog = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-16 lg:flex">
-            <div className="my-8">
-              <h4 className="mb-4 text-3xl uppercase">1 on 1 Consultation</h4>
+          <div className="flex flex-col gap-16 lg:flex-row">
+            <div className="mb-8">
+              <h4 className="mb-4 text-xl uppercase md:text-3xl">1 on 1 Consultation</h4>
               <p>
                 Discover answers to the challenges in your organization. Get a custom DAO
                 application, unique for your needs.
               </p>
             </div>
-            <div className="my-8">
-              <h4 className="mb-4 text-3xl uppercase">Team/Community Education</h4>
+            <div className="mb-8">
+              <h4 className="mb-4 text-xl uppercase md:text-3xl">Team/Community Education</h4>
               <p>
                 You don&apos;t have to be a member of a DAO to take advantage of wisdom from the
                 DAOhaus community.
               </p>
             </div>
-            <div className="my-8">
-              <h4 className="mb-4 text-3xl uppercase">Custom Build</h4>
+            <div className="mb-8">
+              <h4 className="mb-4 text-xl uppercase md:text-3xl">Custom Build</h4>
               <p>
                 DAOhaus encourages builders to collaborate. Everyone learns together and supports
                 each other, as the ecosystem evolves.
@@ -43,8 +43,10 @@ const Dialog = () => {
           </div>
         </Card>
         <div className="pt-6 text-center">
-          <Button bgColor="white" borderColor="white" textColor="primary">
-            Reach Out
+          <Button bgColor="white" borderColor="white">
+            <a href="https://discord.gg/daohaus" target="_blank">
+              Reach Out
+            </a>
           </Button>
         </div>
       </div>

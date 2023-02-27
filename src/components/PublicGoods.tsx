@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import Button from './Button';
 import Card from 'components/Card';
 import { ReactComponent as OpenSourceSVG } from 'assets/dh_opensource.svg';
@@ -42,9 +44,9 @@ const PublicGoods = () => {
           </div>
         </Card>
         <div className="flex justify-center space-x-6">
-          <Button>
-            <a href="/moloch">Moloch & DAOhaus V3</a>
-          </Button>
+          <Link to="/moloch">
+            <Button>Moloch & DAOhaus V3</Button>
+          </Link>
         </div>
       </div>
     </section>

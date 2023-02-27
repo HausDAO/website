@@ -1,4 +1,3 @@
-import Button from './Button';
 import Card from './Card';
 
 interface TestimonialProps {
@@ -10,7 +9,7 @@ interface TestimonialProps {
 }
 
 const Testimonial = (props: TestimonialProps) => {
-  const { title, description, buttonText, href, className } = props;
+  const { title, description, className } = props;
   return (
     <Card className={className}>
       <div className="flex flex-col gap-8 md:flex-row">

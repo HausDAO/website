@@ -43,11 +43,11 @@ const Dialog = () => {
           </div>
         </Card>
         <div className="pt-6 text-center">
-          <Button bgColor="white" borderColor="white">
-            <a href="https://discord.gg/daohaus" target="_blank">
+          <a href="https://discord.gg/daohaus" target="_blank" rel="noreferrer">
+            <Button bgColor="white" borderColor="white" textColor="primary">
               Reach Out
-            </a>
-          </Button>
+            </Button>
+          </a>
         </div>
       </div>
     </section>

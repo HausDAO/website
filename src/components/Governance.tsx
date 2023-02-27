@@ -10,7 +10,7 @@ const Governance = () => {
         <h2 className="mb-4 text-3xl uppercase">Govern in Public Haus</h2>
         <h3 className="mb-4 font-sans text-xl">DAOhaus Ecosystem DAO</h3>
         <p className="mb-6 text-sm">DAOhaus is a Public Good and you should help govern it.</p>
-        <div className="flex w-48 flex-col space-y-4 text-center">
+        <div className="flex w-48 space-x-4">
           <a href="https://publichaus.club" target="_blank" rel="noreferrer">
             <Button bgColor="secondary" borderColor="secondary">
               Join

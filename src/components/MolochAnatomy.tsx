@@ -104,7 +104,7 @@ const MolochAnatomy = () => {
             <AnatomyItem key={anatomyItem.title} {...anatomyItem} />
           ))}
         </div> */}
-        <div className="my-24 mx-auto flex max-w-xl flex-col justify-center text-center">
+        {/* <div className="my-24 mx-auto flex max-w-xl flex-col justify-center text-center">
           <h3 className="mb-4 text-3xl">Endless possibilities</h3>
           <h4>Common Integrations</h4>
           <p>Coordinape</p>
@@ -113,7 +113,7 @@ const MolochAnatomy = () => {
           <p>Hedgey</p>
           <p>Swapr</p>
           <p>Disperse</p>
-        </div>
+        </div> */}
       </div>
       <img src={bgCoderedUp} alt="Red code pixels cascading up" />
     </section>

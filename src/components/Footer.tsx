@@ -14,18 +14,13 @@ const Footer = () => {
               </Link>
             </li>
             <li className="mb-4">
-              <a href="/#daohaus-v3" className="hover:underline">
+              <a href="/moloch" className="hover:underline">
                 DAOHaus V3
               </a>
             </li>
             <li className="mb-4">
-              <Link to="/moloch" className="hover:underline">
-                Moloch V3
-              </Link>
-            </li>
-            <li className="mb-4">
               <a
-                href="https://discord.com/channels/709210493549674598/735524730328711188"
+                href="https://discord.gg/daohaus"
                 target="_blank"
                 className="hover:underline"
                 rel="noreferrer"

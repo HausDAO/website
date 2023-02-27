@@ -14,7 +14,7 @@ const Navigation = () => {
           <DropdownMenu.Root>
             <DropdownMenu.Trigger asChild>
               <button
-                className="shadow-blackA7 hover:bg-violet3 inline-flex h-[35px] w-[35px] items-center justify-center rounded-md bg-white text-brandRed shadow-[0_2px_10px] outline-none focus:outline-none"
+                className="shadow-blackA7 hover:bg-violet3 inline-flex h-[35px] w-[35px] items-center justify-center rounded-sm bg-white text-brandRed shadow-[-5px_5px_rgba(254,_29,_91,_0.4),_-10px_10px_rgba(254,_29,_91,_0.3),_-15px_15px_rgba(254,_29,_91,_0.2),_-20px_20px_rgba(254,_29,_91,_0.1),_-25px_25px_rgba(254,_29,_91,_0.05)] outline-none focus:outline-none"
                 aria-label="Menu Button"
               >
                 <FaBars />
@@ -23,31 +23,31 @@ const Navigation = () => {
 
             <DropdownMenu.Portal>
               <DropdownMenu.Content
-                className="data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade min-w-[220px] rounded-md bg-white p-[5px] shadow-[0px_10px_38px_-10px_rgba(22,_23,_24,_0.35),_0px_10px_20px_-15px_rgba(22,_23,_24,_0.2)] will-change-[opacity,transform]"
+                className="data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade min-w-[200px] rounded-sm bg-white p-[5px] shadow-[0px_10px_38px_-10px_rgba(22,_23,_24,_0.35),_0px_10px_20px_-15px_rgba(22,_23,_24,_0.2)] will-change-[opacity,transform]"
                 align="end"
               >
-                <DropdownMenu.Item className="text-violet11 data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none outline-none data-[disabled]:pointer-events-none">
+                <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-brandBlue outline-none data-[disabled]:pointer-events-none">
                   <Link to="/">Home</Link>
                 </DropdownMenu.Item>
-                <DropdownMenu.Item className="text-violet11 data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none outline-none data-[disabled]:pointer-events-none">
+                <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-brandBlue outline-none data-[disabled]:pointer-events-none">
                   <Link to="/moloch">V3</Link>
                 </DropdownMenu.Item>
-                <DropdownMenu.Item className="text-violet11 data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none outline-none data-[disabled]:pointer-events-none">
+                <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-brandBlue outline-none data-[disabled]:pointer-events-none">
                   <a href="https://summon.daohaus.fun/" target="_blank" rel="noreferrer">
                     Summoner
                   </a>
                 </DropdownMenu.Item>
-                <DropdownMenu.Item className="text-violet11 data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none outline-none data-[disabled]:pointer-events-none">
+                <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-brandBlue outline-none data-[disabled]:pointer-events-none">
                   <a href="https://admin.daohaus.fun/" target="_blank" rel="noreferrer">
                     Mission CTRL
                   </a>
                 </DropdownMenu.Item>
-                <DropdownMenu.Item className="text-violet11 data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none outline-none data-[disabled]:pointer-events-none">
+                <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-brandBlue outline-none data-[disabled]:pointer-events-none">
                   <a href="https://docs.daohaus.club/" target="_blank" rel="noreferrer">
                     Docs
                   </a>
                 </DropdownMenu.Item>
-                <DropdownMenu.Item className="text-violet11 data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none outline-none data-[disabled]:pointer-events-none">
+                <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-brandBlue outline-none data-[disabled]:pointer-events-none">
                   <a href="https://publichaus.club/" target="_blank" rel="noreferrer">
                     Governance
                   </a>

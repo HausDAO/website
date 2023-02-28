@@ -28,7 +28,9 @@ const Moloch = () => {
               DAOHaus V3 delivers it
               <br /> as a governance toolkit
             </p>
-            <Button className="mt-8">Read More</Button>
+            <a href="https://docs.daohaus.club/developer" target="_noblank">
+              <Button className="mt-8">Read More</Button>
+            </a>
           </div>
         </div>
       </section>

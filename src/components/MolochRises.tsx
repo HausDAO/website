@@ -43,7 +43,7 @@ const MolochRises = () => {
             </div>
           </div>
         </Card>
-        <a href="https://moloch.daohaus.fun" target="_blank">
+        <a href="https://moloch.daohaus.fun" target="_blank" rel="noreferrer">
           <Button className="mt-8">Read Docs</Button>
         </a>
       </div>

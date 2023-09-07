@@ -98,7 +98,7 @@ const Footer = () => {
             </li>
             <li className="mb-4">
               <a
-                href="https://moloch.daohaus.club"
+                href="https://moloch.daohaus.fun"
                 className="hover:underline"
                 target="_blank"
                 rel="noreferrer"

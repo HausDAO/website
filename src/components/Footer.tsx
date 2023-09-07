@@ -20,7 +20,7 @@ const Footer = () => {
             </li>
             <li className="mb-4">
               <a
-                href="https://discord.gg/daohaus"
+                href="https://discord.gg/HNXHfN8ZUJ"
                 target="_blank"
                 className="hover:underline"
                 rel="noreferrer"
@@ -31,7 +31,7 @@ const Footer = () => {
           </ul>
           <div className="flex gap-4">
             <a
-              href="https://discord.gg/daohaus"
+              href="https://discord.gg/HNXHfN8ZUJ"
               target="_blank"
               className="hover:cursor-pointer"
               rel="noreferrer"
@@ -53,7 +53,7 @@ const Footer = () => {
           <ul className="text-white dark:text-white">
             <li className="mb-4">
               <a
-                href="https://summon.daohaus.fun/"
+                href="https://summon.daohaus.club/"
                 className="hover:underline"
                 target="_blank"
                 rel="noreferrer"
@@ -63,7 +63,7 @@ const Footer = () => {
             </li>
             <li className="mb-4">
               <a
-                href="https://admin.daohaus.fun/"
+                href="https://admin.daohaus.club/"
                 className="hover:underline"
                 target="_blank"
                 rel="noreferrer"

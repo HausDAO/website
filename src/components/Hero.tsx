@@ -12,7 +12,7 @@ const Hero = () => {
             governance
           </h1>
           <div className="mt-10 flex items-center gap-x-6">
-            <a href="https://summon.daohaus.fun" target="_blank" rel="noreferrer">
+            <a href="https://summon.daohaus.club" target="_blank" rel="noreferrer">
               <Button>Summon a DAO</Button>
             </a>
           </div>

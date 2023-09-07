@@ -10,14 +10,14 @@ const appData = [
     description:
       'When you first put the specifics of your decentralized and autonomous governance on chain',
     buttonText: 'Launch App',
-    href: 'https://summon.daohaus.fun/',
+    href: 'https://summon.daohaus.club/',
     border: 'border-solid',
   },
   {
     title: 'Mission Control',
     description: 'Vote and make proposals for the DAOs that you are a member of.',
     buttonText: 'Launch App',
-    href: 'https://admin.daohaus.fun/',
+    href: 'https://admin.daohaus.club/',
     border: 'border-solid',
   },
   {

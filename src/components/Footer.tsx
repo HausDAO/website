@@ -53,7 +53,7 @@ const Footer = () => {
           <ul className="text-white dark:text-white">
             <li className="mb-4">
               <a
-                href="https://summon.daohaus.fun/"
+                href="https://summon.daohaus.club/"
                 className="hover:underline"
                 target="_blank"
                 rel="noreferrer"
@@ -63,7 +63,7 @@ const Footer = () => {
             </li>
             <li className="mb-4">
               <a
-                href="https://admin.daohaus.fun/"
+                href="https://admin.daohaus.club/"
                 className="hover:underline"
                 target="_blank"
                 rel="noreferrer"
@@ -98,7 +98,7 @@ const Footer = () => {
             </li>
             <li className="mb-4">
               <a
-                href="https://moloch.daohaus.fun"
+                href="https://moloch.daohaus.club"
                 className="hover:underline"
                 target="_blank"
                 rel="noreferrer"

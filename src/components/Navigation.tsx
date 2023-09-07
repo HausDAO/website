@@ -35,12 +35,12 @@ const Navigation = () => {
                   <Link to="/moloch">V3</Link>
                 </DropdownMenu.Item>
                 <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
-                  <a href="https://summon.daohaus.fun/" target="_blank" rel="noreferrer">
+                  <a href="https://summon.daohaus.club/" target="_blank" rel="noreferrer">
                     Summoner
                   </a>
                 </DropdownMenu.Item>
                 <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
-                  <a href="https://admin.daohaus.fun/" target="_blank" rel="noreferrer">
+                  <a href="https://admin.daohaus.club/" target="_blank" rel="noreferrer">
                     Mission CTRL
                   </a>
                 </DropdownMenu.Item>
@@ -79,7 +79,7 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="https://summon.daohaus.fun/"
+                href="https://summon.daohaus.club/"
                 target="_blank"
                 rel="noreferrer"
                 className="block rounded py-2 pl-3 pr-4 text-brandBlue hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800"
@@ -89,7 +89,7 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="https://admin.daohaus.fun/"
+                href="https://admin.daohaus.club/"
                 target="_blank"
                 rel="noreferrer"
                 className="block rounded py-2 pl-3 pr-4 text-brandBlue hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800"

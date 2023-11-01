@@ -20,15 +20,15 @@ const Moloch = () => {
           </div>
           <div className="text-left">
             <h1 className="mb-8 text-4xl font-light uppercase text-white sm:text-6xl md:text-6xl">
-              Moloch V3
+              Moloch v3
               <br />
               is here
             </h1>
             <p className="text-xl font-light md:text-4xl">
-              DAOHaus V3 delivers it
-              <br /> as a governance toolkit
+              DAOHaus delivers it
+              <br /> as a governance toolkit and SDK
             </p>
-            <a href="https://docs.daohaus.club/developer" target="_noblank">
+            <a href="https://docs.daohaus.club/" target="_noblank">
               <Button className="mt-8">Read More</Button>
             </a>
           </div>

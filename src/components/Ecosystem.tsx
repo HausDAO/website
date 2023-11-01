@@ -6,7 +6,7 @@ import HausApp from './HausApp';
 
 const appData = [
   {
-    title: 'The Summoner',
+    title: 'Summon',
     description:
       'When you first put the specifics of your decentralized and autonomous governance on chain',
     buttonText: 'Launch App',
@@ -14,7 +14,7 @@ const appData = [
     border: 'border-solid',
   },
   {
-    title: 'Mission Control',
+    title: 'Admin',
     description: 'Vote and make proposals for the DAOs that you are a member of.',
     buttonText: 'Launch App',
     href: 'https://admin.daohaus.club/',
@@ -25,7 +25,7 @@ const appData = [
     description:
       'Do you have an idea for a DAO tool? DAOhaus encourages development on top of the protocol and is available for support.',
     buttonText: 'Read More',
-    href: 'https://docs.daohaus.club/developer',
+    href: 'https://docs.daohaus.club/',
     border: 'border-dashed',
   },
 ];
@@ -72,7 +72,7 @@ const Ecosystem = () => {
               <h2 className="pb-6 text-3xl">Full Stack SDK</h2>
               <img src={fullStack} className="pr-24" alt="Moloch full stack" />
               <div className="mt-8 flex max-w-xl flex-row space-x-4">
-                <a href="https://docs.daohaus.club/developer" target="_blank" rel="noreferrer">
+                <a href="https://docs.daohaus.club/" target="_blank" rel="noreferrer">
                   <Button bgColor="tertiary" borderColor="tertiary" textColor="black">
                     Docs
                   </Button>

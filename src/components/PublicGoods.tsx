@@ -45,7 +45,7 @@ const PublicGoods = () => {
         </Card>
         <div className="flex justify-center space-x-6">
           <Link to="/moloch">
-            <Button>Moloch & DAOhaus V3</Button>
+            <Button>Moloch & DAOhaus v3</Button>
           </Link>
         </div>
       </div>

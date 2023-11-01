@@ -15,7 +15,7 @@ const Footer = () => {
             </li>
             <li className="mb-4">
               <a href="/moloch" className="hover:underline">
-                DAOHaus V3
+                DAOHaus v3
               </a>
             </li>
             <li className="mb-4">
@@ -39,7 +39,7 @@ const Footer = () => {
               <FaDiscord />
             </a>
             <a
-              href="https://twitter.com/nowdaoit"
+              href="https://twitter.com/daohaus"
               target="_blank"
               className="hover:cursor-pointer"
               rel="noreferrer"
@@ -58,7 +58,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Summoner
+                Summon
               </a>
             </li>
             <li className="mb-4">
@@ -68,17 +68,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Mission CTRL
-              </a>
-            </li>
-            <li className="mb-4">
-              <a
-                href="https://docs.daohaus.club/user"
-                className="hover:underline"
-                target="_blank"
-                rel="noreferrer"
-              >
-                DOCS/Users
+                Admin
               </a>
             </li>
           </ul>
@@ -88,12 +78,22 @@ const Footer = () => {
           <ul className="text-white dark:text-white">
             <li className="mb-4">
               <a
-                href="https://docs.daohaus.club/developer"
+                href="https://guide.daohaus.club/"
                 className="hover:underline"
                 target="_blank"
                 rel="noreferrer"
               >
-                DOCS/DAOHaus
+                User Guide
+              </a>
+            </li>
+            <li className="mb-4">
+              <a
+                href="https://docs.daohaus.club/"
+                className="hover:underline"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Developer Docs
               </a>
             </li>
             <li className="mb-4">
@@ -103,7 +103,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                DOCS/Moloch V3
+                Moloch v3
               </a>
             </li>
           </ul>
@@ -113,22 +113,12 @@ const Footer = () => {
           <ul className="text-white dark:text-white">
             <li className="mb-4">
               <a
-                href="https://publichaus.club"
+                href="https://admin.daohaus.club/#/molochv3/0xa/0xf5d6b637a9185707f52d40d452956ca49018247a"
                 className="hover:underline"
                 target="_blank"
                 rel="noreferrer"
               >
-                Public Haus
-              </a>
-            </li>
-            <li className="mb-4">
-              <a
-                href="https://docs.publichaus.club"
-                className="hover:underline"
-                target="_blank"
-                rel="noreferrer"
-              >
-                DOCS/Public Haus
+                PublicHaus DAO
               </a>
             </li>
           </ul>

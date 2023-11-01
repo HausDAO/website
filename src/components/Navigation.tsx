@@ -32,16 +32,13 @@ const Navigation = () => {
                   <Link to="/">Home</Link>
                 </DropdownMenu.Item>
                 <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
-                  <Link to="/moloch">V3</Link>
-                </DropdownMenu.Item>
-                <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
                   <a href="https://summon.daohaus.club/" target="_blank" rel="noreferrer">
-                    Summoner
+                    Summon
                   </a>
                 </DropdownMenu.Item>
                 <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
                   <a href="https://admin.daohaus.club/" target="_blank" rel="noreferrer">
-                    Mission CTRL
+                    Admin
                   </a>
                 </DropdownMenu.Item>
                 <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
@@ -53,6 +50,9 @@ const Navigation = () => {
                   <a href="https://publichaus.club/" target="_blank" rel="noreferrer">
                     Governance
                   </a>
+                </DropdownMenu.Item>
+                <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
+                  <Link to="/moloch">v3</Link>
                 </DropdownMenu.Item>
                 <DropdownMenu.Separator className="bg-violet6 m-[5px] h-[1px]" />
               </DropdownMenu.Content>
@@ -70,21 +70,13 @@ const Navigation = () => {
               </Link>
             </li>
             <li>
-              <Link
-                to="/moloch"
-                className="block rounded py-2 pl-3 pr-4 text-brandBlue hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800"
-              >
-                V3
-              </Link>
-            </li>
-            <li>
               <a
                 href="https://summon.daohaus.club/"
                 target="_blank"
                 rel="noreferrer"
                 className="block rounded py-2 pl-3 pr-4 text-brandBlue hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800"
               >
-                Summoner
+                Summon
               </a>
             </li>
             <li>
@@ -94,7 +86,17 @@ const Navigation = () => {
                 rel="noreferrer"
                 className="block rounded py-2 pl-3 pr-4 text-brandBlue hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800"
               >
-                Mission CTRL
+                Admin
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://guide.daohaus.club/"
+                target="_blank"
+                rel="noreferrer"
+                className="block rounded py-2 pl-3 pr-4 text-brandBlue hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800"
+              >
+                Guide
               </a>
             </li>
             <li>
@@ -108,14 +110,12 @@ const Navigation = () => {
               </a>
             </li>
             <li>
-              <a
-                href="https://publichaus.club/"
-                target="_blank"
-                rel="noreferrer"
+              <Link
+                to="/moloch"
                 className="block rounded py-2 pl-3 pr-4 text-brandBlue hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800"
               >
-                Governance
-              </a>
+                v3
+              </Link>
             </li>
             <li>
               <a
@@ -129,7 +129,7 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="https://twitter.com/nowdaoit"
+                href="https://twitter.com/daohaus"
                 target="_blank"
                 rel="noreferrer"
                 className="block rounded py-2 pl-3 pr-4 text-brandBlue hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800"

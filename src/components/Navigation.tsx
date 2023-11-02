@@ -42,13 +42,13 @@ const Navigation = () => {
                   </a>
                 </DropdownMenu.Item>
                 <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
-                  <a href="https://docs.daohaus.club/" target="_blank" rel="noreferrer">
-                    Docs
+                  <a href="https://guide.daohaus.club/" target="_blank" rel="noreferrer">
+                    Guide
                   </a>
                 </DropdownMenu.Item>
                 <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
-                  <a href="https://publichaus.club/" target="_blank" rel="noreferrer">
-                    Governance
+                  <a href="https://docs.daohaus.club/" target="_blank" rel="noreferrer">
+                    Docs
                   </a>
                 </DropdownMenu.Item>
                 <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">

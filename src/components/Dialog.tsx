@@ -43,7 +43,12 @@ const Dialog = () => {
           </div>
         </Card>
         <div className="pt-6 text-center">
-          <a href="https://discord.gg/daohaus" target="_blank" rel="noreferrer">
+          <a
+            // href="https://discord.gg/daohaus"
+            href="https://discord.gg/kJaVkXtsXA"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Button bgColor="white" borderColor="white" textColor="primary">
               Reach Out
             </Button>

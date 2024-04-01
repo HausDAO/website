@@ -30,9 +30,34 @@ const appData = [
   },
 ];
 
+const communityAppData = [
+  {
+    title: 'Moloch RDF',
+    description: 'Turn any NFT collection into a Moloch DAO with the Retroactive DAO Summoner.',
+    buttonText: 'Launch App',
+    href: 'https://silohaus.github.io/silo-rdf-summoner/',
+    border: 'border-solid',
+  },
+  {
+    title: 'Yeeter',
+    description: 'Launch a unruggable crowdfunding campaign with the Yeeter app.',
+    buttonText: 'Launch App',
+    href: 'https://yeet.haus/',
+    border: 'border-solid',
+  },
+  {
+    title: 'More Soon',
+    description:
+      'More apps are being built by the community. Check back soon for more and reach out if you have an idea.',
+    buttonText: 'Start Dialog',
+    href: 'https://discord.gg/kJaVkXtsXA',
+    border: 'border-dashed',
+  },
+];
+
 const Ecosystem = () => {
   return (
-    <section className="bg-black text-brandGreen">
+    <section id="ecosystem" className="bg-black text-brandGreen">
       <img src={bgCodeblueDown} alt="Blue code pixels cascading down" />
       <div className="mx-8 py-4 md:mx-40">
         <div className="text-center">
@@ -52,6 +77,27 @@ const Ecosystem = () => {
             {appData.map((app, index) => (
               <HausApp key={index} className={app.border} {...app} />
             ))}
+          </div>
+        </div>
+        <div className="mx-8 py-4 md:mx-40">
+          <div className="text-center">
+            <h2 className="text-4xl font-light uppercase lg:text-6xl">
+              Community
+              <br />
+              of Builders
+            </h2>
+            <h3 className="my-4 font-sans text-xl font-extrabold uppercase lg:text-3xl">
+              Try these products from the community
+            </h3>
+            <p className="mx-auto max-w-md font-sans font-light">
+              The community has built a number of products on top of the DAOhaus protocol. Check a
+              few out below.
+            </p>
+            <div className="md-container my-12 mx-auto max-w-6xl columns-1 text-left md:columns-3">
+              {communityAppData.map((app, index) => (
+                <HausApp key={index} className={app.border} {...app} />
+              ))}
+            </div>
           </div>
         </div>
         <div className="text-center">

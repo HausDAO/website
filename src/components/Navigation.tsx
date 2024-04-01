@@ -119,7 +119,8 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="https://discord.gg/daohaus"
+                // href="https://discord.gg/daohaus"
+                href="https://discord.gg/kJaVkXtsXA"
                 target="_blank"
                 rel="noreferrer"
                 className="block rounded py-2 pl-3 pr-4 text-brandBlue hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800"

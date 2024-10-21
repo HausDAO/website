@@ -123,7 +123,7 @@ const Ecosystem = () => {
                     Docs
                   </Button>
                 </a>
-                <a href="https://discord.gg/daohaus" target="_blank" rel="noreferrer">
+                <a href="https://discord.gg/kJaVkXtsXA" target="_blank" rel="noreferrer">
                   <Button bgColor="tertiary" borderColor="tertiary" textColor="black">
                     Support
                   </Button>

@@ -119,7 +119,6 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                // href="https://discord.gg/daohaus"
                 href="https://discord.gg/kJaVkXtsXA"
                 target="_blank"
                 rel="noreferrer"

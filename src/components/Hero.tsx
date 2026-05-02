@@ -12,11 +12,6 @@ const Hero = () => {
             <br /> purpose-driven <br />
             governance
           </h1>
-          <div className="mt-10 flex items-center gap-x-6">
-            <Button onClick={() => executeScroll(4500)}>
-              <Button>Get Started</Button>
-            </Button>
-          </div>
         </div>
         <div className="ml-auto flex-col" />
       </div>

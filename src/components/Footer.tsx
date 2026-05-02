@@ -53,22 +53,12 @@ const Footer = () => {
           <ul className="text-white dark:text-white">
             <li className="mb-4">
               <a
-                href="https://summon.daohaus.club/"
-                className="hover:underline"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Summon
-              </a>
-            </li>
-            <li className="mb-4">
-              <a
                 href="https://admin.daohaus.club/"
                 className="hover:underline"
                 target="_blank"
                 rel="noreferrer"
               >
-                Admin
+                Admin App
               </a>
             </li>
           </ul>

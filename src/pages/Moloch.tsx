@@ -1,5 +1,4 @@
 import Button from 'components/Button';
-import Dialog from 'components/Dialog';
 import MolochHistory from 'components/MolochHistory';
 import MolochAnatomy from 'components/MolochAnatomy';
 import MolochRises from 'components/MolochRises';
@@ -14,7 +13,7 @@ const Moloch = () => {
           <div className="max-w-2xl">
             <img
               src={molochLogoStack}
-              className="pb-24 md:pr-24 md:pb-0"
+              className="pb-24 md:pb-0 md:pr-24"
               alt="Multiple Moloch logos stacked on top of each other"
             />
           </div>
@@ -37,7 +36,6 @@ const Moloch = () => {
       <MolochHistory />
       <MolochRises />
       <MolochAnatomy />
-      <Dialog />
     </main>
   );
 };

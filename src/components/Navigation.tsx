@@ -18,7 +18,7 @@ const Navigation = () => {
                 aria-label="Menu Button"
               >
                 <FaBars />
-                <div className="absolute top-2 right-2 h-full w-full border-2 border-brandRed transition group-data-[state=open]:translate-x-2 group-data-[state=open]:-translate-y-2"></div>
+                <div className="absolute right-2 top-2 h-full w-full border-2 border-brandRed transition group-data-[state=open]:-translate-y-2 group-data-[state=open]:translate-x-2"></div>
               </button>
             </DropdownMenu.Trigger>
 
@@ -27,18 +27,13 @@ const Navigation = () => {
                 className="data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade min-w-[160px] bg-brandRed p-[5px] shadow-[0px_10px_38px_-10px_rgba(22,_23,_24,_0.35),_0px_10px_20px_-15px_rgba(22,_23,_24,_0.2)] will-change-[opacity,transform]"
                 align="end"
               >
-                <div className="absolute top-2 right-2 h-full w-full border-2 border-brandRed transition group-data-[state=open]:translate-x-2 group-data-[state=open]:-translate-y-2"></div>
+                <div className="absolute right-2 top-2 h-full w-full border-2 border-brandRed transition group-data-[state=open]:-translate-y-2 group-data-[state=open]:translate-x-2"></div>
                 <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
                   <Link to="/">Home</Link>
                 </DropdownMenu.Item>
                 <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
-                  <a href="https://summon.daohaus.club/" target="_blank" rel="noreferrer">
-                    Summon
-                  </a>
-                </DropdownMenu.Item>
-                <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
                   <a href="https://admin.daohaus.club/" target="_blank" rel="noreferrer">
-                    Admin
+                    Admin App
                   </a>
                 </DropdownMenu.Item>
                 <DropdownMenu.Item className="data-[disabled]:text-mauve8 data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1 group relative flex h-[25px] select-none items-center rounded-[3px] px-[5px] pl-[25px] text-[13px] leading-none text-white outline-none data-[disabled]:pointer-events-none">
@@ -71,22 +66,12 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="https://summon.daohaus.club/"
-                target="_blank"
-                rel="noreferrer"
-                className="block rounded py-2 pl-3 pr-4 text-brandBlue hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800"
-              >
-                Summon
-              </a>
-            </li>
-            <li>
-              <a
                 href="https://admin.daohaus.club/"
                 target="_blank"
                 rel="noreferrer"
                 className="block rounded py-2 pl-3 pr-4 text-brandBlue hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-800"
               >
-                Admin
+                Admin App
               </a>
             </li>
             <li>

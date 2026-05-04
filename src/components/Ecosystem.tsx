@@ -50,7 +50,7 @@ const communityAppData = [
     description:
       'More apps are being built by the community. Check back soon for more and reach out if you have an idea.',
     buttonText: 'Start Dialog',
-    href: 'https://discord.gg/kJaVkXtsXA',
+    href: 'https://discord.gg/ghXNV27rNU',
     border: 'border-dashed',
   },
 ];
@@ -123,7 +123,7 @@ const Ecosystem = () => {
                     Docs
                   </Button>
                 </a>
-                <a href="https://discord.gg/kJaVkXtsXA" target="_blank" rel="noreferrer">
+                <a href="https://discord.gg/ghXNV27rNU" target="_blank" rel="noreferrer">
                   <Button bgColor="tertiary" borderColor="tertiary" textColor="black">
                     Support
                   </Button>

@@ -44,7 +44,7 @@ const Dialog = () => {
         </Card>
         <div className="pt-6 text-center">
           <a
-            href="https://discord.gg/kJaVkXtsXA"
+            href="https://discord.gg/ghXNV27rNU"
             target="_blank"
             rel="noreferrer"
           >

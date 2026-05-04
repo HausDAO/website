@@ -17,7 +17,7 @@ const NoMatch = () => {
           </Button>
           <Button>
             <a
-              href="https://discord.gg/kJaVkXtsXA"
+              href="https://discord.gg/ghXNV27rNU"
             >
               Contact support <span aria-hidden="true">&rarr;</span>
             </a>

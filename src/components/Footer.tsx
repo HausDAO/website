@@ -20,7 +20,7 @@ const Footer = () => {
             </li>
             <li className="mb-4">
               <a
-                href="https://discord.gg/kJaVkXtsXA"
+                href="https://discord.gg/ghXNV27rNU"
                 target="_blank"
                 className="hover:underline"
                 rel="noreferrer"
@@ -31,7 +31,7 @@ const Footer = () => {
           </ul>
           <div className="flex gap-4">
             <a
-              href="https://discord.gg/kJaVkXtsXA"
+              href="https://discord.gg/ghXNV27rNU"
               target="_blank"
               className="hover:cursor-pointer"
               rel="noreferrer"
